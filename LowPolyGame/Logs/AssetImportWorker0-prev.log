@@ -1,221 +1,999 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16315 MB
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/itisd/Documents/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60360
-Successfully changed project path to: C:/Users/itisd/Documents/Low-Poly-3D-Game/LowPolyGame
-C:/Users/itisd/Documents/Low-Poly-3D-Game/LowPolyGame
+63771
+Successfully changed project path to: D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/itisd/Documents/Low-Poly-3D-Game/LowPolyGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
-    Vendor:   NVIDIA
-    VRAM:     8079 MB
-    Driver:   27.21.14.6589
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001916 seconds.
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002286 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.09 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.885 seconds
+- Completed reload, in  1.286 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001669 seconds.
+Registered in 0.001288 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
+- Completed reload, in  0.810 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1282 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 1.616000 ms (FindLiveObjects: 0.091000 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.442800 ms  DeleteObjects: 0.050300 ms)
+Total: 1.463700 ms (FindLiveObjects: 0.101000 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.279500 ms  DeleteObjects: 0.045900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations/Breakdance.anim
-  artifactKey: Guid(fd55d967f400a8c4fa090abebfcf7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Breakdance.anim using Guid(fd55d967f400a8c4fa090abebfcf7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077481b80f32a653dee8d5b58987579d') in 0.047367 seconds 
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-sail.fbx
+  artifactKey: Guid(63875e8ccfcd3eb4981b8612d314c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-sail.fbx using Guid(63875e8ccfcd3eb4981b8612d314c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca60184b3c3af508e7907a9c547238') in 0.185632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-sail.fbx
+  artifactKey: Guid(e41174da61cc83d4eae4fd11e4d91af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-sail.fbx using Guid(e41174da61cc83d4eae4fd11e4d91af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4506b55b91432b3a641103675b4261') in 0.057073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-fishing.prefab
+  artifactKey: Guid(c4345ffbcfc8cc945bb35cbfd2409f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-fishing.prefab using Guid(c4345ffbcfc8cc945bb35cbfd2409f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e472980e94de0cbec450fac4e51e3384') in 0.051539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-speed.prefab
+  artifactKey: Guid(1ca6a072a7c6ace46a7169820c82e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-speed.prefab using Guid(1ca6a072a7c6ace46a7169820c82e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0049a909a1873c0987c33fc375f8e753') in 0.047695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-china.fbx
+  artifactKey: Guid(ae2c00b132c517242aa4d06c10625921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-china.fbx using Guid(ae2c00b132c517242aa4d06c10625921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2960c7eda4766476651ca5e91fdaa962') in 0.053099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-china.fbx
+  artifactKey: Guid(61102e40f664bbe45a854db4eb547566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-china.fbx using Guid(61102e40f664bbe45a854db4eb547566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec20f001bea42e0df575265a2691223') in 0.061234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat.fbx
+  artifactKey: Guid(8c7d972780606b8438278361a27b0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat.fbx using Guid(8c7d972780606b8438278361a27b0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e57e70eee0fb05e596d947b74c749ba') in 0.041701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat.prefab
+  artifactKey: Guid(b8ca23f1e3cb9824ea16bdee694a9bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat.prefab using Guid(b8ca23f1e3cb9824ea16bdee694a9bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2efbe263ef434d359e1f67fda1f1d9b') in 0.042588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-sail.prefab
+  artifactKey: Guid(11f413bd028be614cbe33f1da7904349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-sail.prefab using Guid(11f413bd028be614cbe33f1da7904349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7467f3e4ffe9ae54bf09c69fbbd4b36f') in 0.040143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-speed.fbx
+  artifactKey: Guid(47872d1e89f90f34fa3416cf9b02cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-speed.fbx using Guid(47872d1e89f90f34fa3416cf9b02cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950adbb329118b56e1b33af7e70d2bf0') in 0.046470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-china.prefab
+  artifactKey: Guid(775f1f0ab10f7534d9f4c5904a5a47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-china.prefab using Guid(775f1f0ab10f7534d9f4c5904a5a47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b284bd86b29b4aa0f06a3b31eff26623') in 0.039265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-fishing.prefab
+  artifactKey: Guid(dad09abf691c16f41a25d4f221ee6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat-fishing.prefab using Guid(dad09abf691c16f41a25d4f221ee6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f96ad6dac97ae43dfffc1d3fd85ff') in 0.167439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-fishing.fbx
+  artifactKey: Guid(7c80836f9315fc543871e6315f95fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-fishing.fbx using Guid(7c80836f9315fc543871e6315f95fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8079014964e6b84a0cc41b7eb2d45359') in 0.046136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-fishing.fbx
+  artifactKey: Guid(5f305c0611af59342a39bc0b3c8129c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-fishing.fbx using Guid(5f305c0611af59342a39bc0b3c8129c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8db8894a0ffb5ed8061bfe1ac9bcd6') in 0.039942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-china.prefab
+  artifactKey: Guid(6156faf97ef217c43bf1a350d3ffc540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-china.prefab using Guid(6156faf97ef217c43bf1a350d3ffc540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad2ec0b819ab8d746b182fd4c45c373') in 0.039366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-sail.prefab
+  artifactKey: Guid(30b616db135baae4e914598463567aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-sail.prefab using Guid(30b616db135baae4e914598463567aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f80bb311537bbfff7539d6fa3541722') in 0.039845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.672127 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat.fbx
+  artifactKey: Guid(8b789d87091534ae1b9aa8dc162c1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat.fbx using Guid(8b789d87091534ae1b9aa8dc162c1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9c57a2b106965b99570e13e141aaba') in 0.039938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962519 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat.prefab
+  artifactKey: Guid(a059c4ac190b41743b10d5c9ddf4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Boats_M/boat.prefab using Guid(a059c4ac190b41743b10d5c9ddf4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93f976751c56f05c046cb20cc196c40') in 0.038699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.344083 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-speed.fbx
+  artifactKey: Guid(b169fc18c2b8c75468bd58c7f43a3532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/boat-speed.fbx using Guid(b169fc18c2b8c75468bd58c7f43a3532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5631430d5a197c6085acf611682c3965') in 0.055064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-speed.prefab
+  artifactKey: Guid(22faefc6fc1373d44829a173981667b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/boats/boat-speed.prefab using Guid(22faefc6fc1373d44829a173981667b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1a85c406127b846442ee9b69594de1') in 0.040392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.397193 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/Materials/LOWPOLY-COLORS.mat
+  artifactKey: Guid(03c3af1d58cdcf540a76ff45bddf615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/Materials/LOWPOLY-COLORS.mat using Guid(03c3af1d58cdcf540a76ff45bddf615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8f9ea383702b4901842226ade69a67') in 0.072014 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001573 seconds.
+Registered in 0.001465 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1743.
-Total: 1.529700 ms (FindLiveObjects: 0.097000 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.384900 ms  DeleteObjects: 0.010600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1746.
-Total: 1.606800 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.394300 ms  DeleteObjects: 0.033000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001450 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
-Platform modules already initialized, skipping
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 1.554500 ms (FindLiveObjects: 0.097000 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.411100 ms  DeleteObjects: 0.011900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1786.
+Total: 1.516400 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.339100 ms  DeleteObjects: 0.014500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 824.450960 seconds.
+  path: Assets/Low Poly Pack/Water.blend
+  artifactKey: Guid(22769846115ad56498bc9cf8a98373c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Water.blend using Guid(22769846115ad56498bc9cf8a98373c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ee1ad85454d583847cf37de2e67154') in 0.123283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.959881 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Buildings_T/building-antique-china.fbx
+  artifactKey: Guid(9d8b149cdc4c9bc4d939d23cdb419490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Buildings_T/building-antique-china.fbx using Guid(9d8b149cdc4c9bc4d939d23cdb419490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc3999726a3b0851745ea9ea41188eb') in 0.080090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/building-antique-china.prefab
+  artifactKey: Guid(b50f1dc2aa3ccae40878c6bb4d7d527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/building-antique-china.prefab using Guid(b50f1dc2aa3ccae40878c6bb4d7d527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7971ecce0b63c5d0756f452af535289') in 0.063870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/bus-school.fbx
+  artifactKey: Guid(4e0b1ae38a8424900a4328ebdd6fda58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/bus-school.fbx using Guid(4e0b1ae38a8424900a4328ebdd6fda58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a298b7eb725449ea79e3f959375978') in 0.089384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Fantasy_M/dungeon-pillar-stone-square.fbx
+  artifactKey: Guid(4f941257595ef4e4599a137c3f5f9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Fantasy_M/dungeon-pillar-stone-square.fbx using Guid(4f941257595ef4e4599a137c3f5f9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf33b2455147087d62158664d5c1e95') in 0.045404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/dungeon-pillar-stone-square.fbx
+  artifactKey: Guid(59d27d181345c4028b61442c2fc72e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/dungeon-pillar-stone-square.fbx using Guid(59d27d181345c4028b61442c2fc72e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8272c13a021c97dead059732893c266') in 0.051284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Buildings_T/building-antique-china.prefab
+  artifactKey: Guid(fab1aa042ae32f04290b2e2f4ec307b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Buildings_T/building-antique-china.prefab using Guid(fab1aa042ae32f04290b2e2f4ec307b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e1d6845956414743d26810346c9ac3') in 0.039888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Fantasy_T/dungeon-pillar-stone-square.prefab
+  artifactKey: Guid(504cdb589e853447a8802edac7bc4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Fantasy_T/dungeon-pillar-stone-square.prefab using Guid(504cdb589e853447a8802edac7bc4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7aea2c05108ea38f3354acebd8f796') in 0.040380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/bus-school.fbx
+  artifactKey: Guid(8937fe22601444279a3bcb780d316681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/bus-school.fbx using Guid(8937fe22601444279a3bcb780d316681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8b979f40eb5309a152fc097ee40c20') in 0.085013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.131366 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/crater-water.prefab
+  artifactKey: Guid(d383ad2fcfb4f744b8dffa58a3340758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/crater-water.prefab using Guid(d383ad2fcfb4f744b8dffa58a3340758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa215abb72a75e20bc08c0264193ff16') in 0.330748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-water.prefab
+  artifactKey: Guid(6cd5499abd3794228b6e7e318fa60b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-water.prefab using Guid(6cd5499abd3794228b6e7e318fa60b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffbfb5f429b01b27c1ea23b80ec7425') in 0.048429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/crater-water.fbx
+  artifactKey: Guid(f6d508f4dd401ff49bbd9cef80f05208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/crater-water.fbx using Guid(f6d508f4dd401ff49bbd9cef80f05208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3569f6ea5e7cedfb166ca28efdf846fc') in 0.052854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Resources_T/crater-water.prefab
+  artifactKey: Guid(6108bfa2e6498f846a4051b924769512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Resources_T/crater-water.prefab using Guid(6108bfa2e6498f846a4051b924769512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f3a22d5294d6e437a5c79436d8e683') in 0.039979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Terrains_M/hexagon-water.prefab
+  artifactKey: Guid(0b9ed59aab3254a46b4b2a2383b7517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Terrains_M/hexagon-water.prefab using Guid(0b9ed59aab3254a46b4b2a2383b7517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4647a8dd78d2d94f72dc20258ae32f') in 0.040380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-water.prefab
+  artifactKey: Guid(d2e0052481eba4036af6da9fbcf508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-water.prefab using Guid(d2e0052481eba4036af6da9fbcf508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581f93e6e464bcd7cb91bfe743d13d5b') in 0.041881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/crater-water.fbx
+  artifactKey: Guid(1a788210852d17b4f9442e98cc8d2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/crater-water.fbx using Guid(1a788210852d17b4f9442e98cc8d2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8986acc8597bc5b955508e637ca07d5') in 0.039782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/Hexagons_T/hexagon-water.fbx
+  artifactKey: Guid(1f4003faf833a459abca2529d38804a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/Hexagons_T/hexagon-water.fbx using Guid(1f4003faf833a459abca2529d38804a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84eee97e365862817b6c02c09f74d19e') in 0.038758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.027978 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/hexagon-water.fbx
+  artifactKey: Guid(7b3b4178fd17c1a49bc9b44a166c346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/hexagon-water.fbx using Guid(7b3b4178fd17c1a49bc9b44a166c346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388ce250b119169f7453e4b2b2252cd6') in 0.037936 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001693 seconds.
+Registered in 0.004015 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 1.498100 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.336100 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.767632 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Terrains_M/Planes_M/terrain-plane-water.prefab
+  artifactKey: Guid(e4c4e9ea85e4f49d8b0c5abe316e8863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Terrains_M/Planes_M/terrain-plane-water.prefab using Guid(e4c4e9ea85e4f49d8b0c5abe316e8863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13820f24dd01aa0778536a4ff0f79b40') in 0.090173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/Planes_T/terrain-plane-water.fbx
+  artifactKey: Guid(aa73b742973a44628b193b46386f6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Terrains_T/Planes_T/terrain-plane-water.fbx using Guid(aa73b742973a44628b193b46386f6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f14f02c00b80941c160886d760859') in 0.097940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 275.066545 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/building-race-track.prefab
+  artifactKey: Guid(e9c8919fc1826aa4eb54fe7c43a80324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/building-race-track.prefab using Guid(e9c8919fc1826aa4eb54fe7c43a80324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a02ffa43ecc7d96af848aaa62657f3a') in 0.055626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/building-race-track.fbx
+  artifactKey: Guid(3b2b312836c0f074aaa21e4024ace140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/building-race-track.fbx using Guid(3b2b312836c0f074aaa21e4024ace140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e4684be31e212523a64c557494d96b') in 0.040807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/building-race-track.prefab
+  artifactKey: Guid(67c960226ab640f48925d215c8862dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/building-race-track.prefab using Guid(67c960226ab640f48925d215c8862dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d065d0a0357a395dffc49286c4d104') in 0.050278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/building-race-track.fbx
+  artifactKey: Guid(07d9d94200755894980de880cb7f577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/building-race-track.fbx using Guid(07d9d94200755894980de880cb7f577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee81f03ab68af2b1e50590d031e47f9') in 0.044138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251091 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/building-race-track-long.fbx
+  artifactKey: Guid(282d4f7738189584bbfa5cfe6ea5f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/building-race-track-long.fbx using Guid(282d4f7738189584bbfa5cfe6ea5f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc95f779f762e29352c0e95837f8eb1') in 0.067926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/building-race-track-long.prefab
+  artifactKey: Guid(198e5445d7f5fae459c20c9dc8508f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/building-race-track-long.prefab using Guid(198e5445d7f5fae459c20c9dc8508f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e33dbd9735ef3b24843b9f6e01de6fc') in 0.067472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249214 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/building-race-track-long.fbx
+  artifactKey: Guid(d0dfa4e607435b64c935a488c9a184ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/building-race-track-long.fbx using Guid(d0dfa4e607435b64c935a488c9a184ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815c3ad4010680a7248c7ee962b5f5fe') in 0.047200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053159 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/building-race-track-long.prefab
+  artifactKey: Guid(5094d058e85eb84449f8878050b0436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/building-race-track-long.prefab using Guid(5094d058e85eb84449f8878050b0436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a378e9277e81987f1cdefaa8c6b7683a') in 0.039806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/car-passenger-race.fbx
+  artifactKey: Guid(2765c81a45240724b9b5d201f825510e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/car-passenger-race.fbx using Guid(2765c81a45240724b9b5d201f825510e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840f2a496577d7a6721296ec0f185ce5') in 0.092167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Cars_M/car-passenger-race.prefab
+  artifactKey: Guid(768c5221fa8c6b2499a21135fc961a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Vehicles_M/Cars_M/car-passenger-race.prefab using Guid(768c5221fa8c6b2499a21135fc961a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c0cc54ec90bc887042ebeac56ba810') in 0.065056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/cars/car-passenger-race.prefab
+  artifactKey: Guid(25726768bd8e0e54396429130cee1e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Vehicles_T/cars/car-passenger-race.prefab using Guid(25726768bd8e0e54396429130cee1e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44faf63f131f42f09f8a8403f7d262db') in 0.040693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/car-passenger-race.fbx
+  artifactKey: Guid(dd15a7b1e97c38d4788ae45f0b1ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/car-passenger-race.fbx using Guid(dd15a7b1e97c38d4788ae45f0b1ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4457ab593eb321fd6034e4dbc3e558cc') in 0.079618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.782037 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-curve.fbx
+  artifactKey: Guid(43e1bb47cc29c4f49a59de994c3f16dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-curve.fbx using Guid(43e1bb47cc29c4f49a59de994c3f16dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea602b246af0d0548b3d60053af6c8') in 0.066296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314711 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-curve.prefab
+  artifactKey: Guid(23f1f543448deb14ab5405d0ae72b416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-curve.prefab using Guid(23f1f543448deb14ab5405d0ae72b416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5adfb5bb813f2b17232f1cca87d8241') in 0.065559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-curve.fbx
+  artifactKey: Guid(a3ef84e8692a0bd4e90d12b88cdc41e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-curve.fbx using Guid(a3ef84e8692a0bd4e90d12b88cdc41e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51d6fa108f137ff36d6cc54a3c632e6') in 0.042763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-curve.prefab
+  artifactKey: Guid(a5454c5b1a480204a91d44ad79ef3789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-curve.prefab using Guid(a5454c5b1a480204a91d44ad79ef3789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788fc31e6a0b192e07c085e643fad0ee') in 0.042847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.313872 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/tile-race-track-pit-lane-start.fbx
+  artifactKey: Guid(3e9a09fe5d6c90c45a39e6a8e4851cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/tile-race-track-pit-lane-start.fbx using Guid(3e9a09fe5d6c90c45a39e6a8e4851cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cae2d77069679c246c6303f809047a') in 0.049729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/tile-race-track-pit-lane-start.prefab
+  artifactKey: Guid(eb5e58c02d68e944188297982d909332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/tile-race-track-pit-lane-start.prefab using Guid(eb5e58c02d68e944188297982d909332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f278e884844ab2e5876b81155817286') in 0.048997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/tile-race-track-pit-lane-start.fbx
+  artifactKey: Guid(9bb4f0820dae3324a8b8c778e6c00e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/tile-race-track-pit-lane-start.fbx using Guid(9bb4f0820dae3324a8b8c778e6c00e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce39ec581ab6a2e704454745b0422b3') in 0.057582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.386980 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/tile-race-track-pit-lane-start.prefab
+  artifactKey: Guid(e1645f89745920e4292f6b1bda76a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/tile-race-track-pit-lane-start.prefab using Guid(e1645f89745920e4292f6b1bda76a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73f77a9a578d50b046a86c40fb6330e') in 0.049936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069380 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-sand-curve.fbx
+  artifactKey: Guid(2b228261237026b4aba068b2ea24434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-sand-curve.fbx using Guid(2b228261237026b4aba068b2ea24434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8439359e16361b27c08b49c110515c') in 0.057743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.554613 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-sand-curve.fbx
+  artifactKey: Guid(48fc0c02c236dd849b80cf82a251479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-sand-curve.fbx using Guid(48fc0c02c236dd849b80cf82a251479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d47f72900bd84571bce251bc748813') in 0.074258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601755 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-sand-curve.prefab
+  artifactKey: Guid(9c1455b522c21da48a1263ce5dda3444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-sand-curve.prefab using Guid(9c1455b522c21da48a1263ce5dda3444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56706b0732204a173ae45e41efcaa203') in 0.061924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-sand-curve.prefab
+  artifactKey: Guid(2671acc979debf547a33059c290391b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-sand-curve.prefab using Guid(2671acc979debf547a33059c290391b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec66983e4c176f6f991a77db13c387') in 0.067219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/tile-race-track-single-pit-lane.prefab
+  artifactKey: Guid(1f84c087cd4e3bc4884490c83666cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Racing_T/tile-race-track-single-pit-lane.prefab using Guid(1f84c087cd4e3bc4884490c83666cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1228f8c5ec647c928148acec138e569') in 0.072895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.301903 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/tile-race-track-single-pit-lane.fbx
+  artifactKey: Guid(6262d1386563af34bb6e154addab3965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/tile-race-track-single-pit-lane.fbx using Guid(6262d1386563af34bb6e154addab3965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2704f8da3e798df199e4e4a1bca5c57f') in 0.044647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.548756 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/tile-race-track-single-pit-lane.prefab
+  artifactKey: Guid(442116d478eae084391ccb88ce8a5101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Racing_M/tile-race-track-single-pit-lane.prefab using Guid(442116d478eae084391ccb88ce8a5101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26b1c10fec961c1c329b6fbe76e05e4') in 0.057721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-start-grid.fbx
+  artifactKey: Guid(330c1ef60a6dc844ba4a0a16de9b2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-start-grid.fbx using Guid(330c1ef60a6dc844ba4a0a16de9b2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b8ed11d646ebc9f78a112b1e477edb') in 0.041837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021579 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-start-grid.fbx
+  artifactKey: Guid(47140c3dd44f66341b95de84fce15cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-start-grid.fbx using Guid(47140c3dd44f66341b95de84fce15cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6664aaa2bc4f70689b409e3d343b78b') in 0.049836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-start-grid.prefab
+  artifactKey: Guid(32f28e93a64551448b81596e9a0e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-start-grid.prefab using Guid(32f28e93a64551448b81596e9a0e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f377c2f6fbb8909a2bbef191762468') in 0.041529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.551004 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-start-grid.prefab
+  artifactKey: Guid(75c2b15a7d39b9347b861b63f4df60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-start-grid.prefab using Guid(75c2b15a7d39b9347b861b63f4df60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c606dd26d527e0c1ee536e81814f023b') in 0.046143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-start-line.fbx
+  artifactKey: Guid(6fc67cffc1a4dcc4fa67d3a4686499b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-start-line.fbx using Guid(6fc67cffc1a4dcc4fa67d3a4686499b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234051b73ac39624716bd8de5faeeabd') in 0.046302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-start-line.prefab
+  artifactKey: Guid(aa8ba515005cf16458711af27fcd2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-start-line.prefab using Guid(aa8ba515005cf16458711af27fcd2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd94eca9d29298bb5bcbeb01b29a6773') in 0.040906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-start-line.fbx
+  artifactKey: Guid(8b839f8d580299d4a836ad2da24ef0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-start-line.fbx using Guid(8b839f8d580299d4a836ad2da24ef0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcea17c0565c4bf77256d5ba16f279d') in 0.042171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-start-line.prefab
+  artifactKey: Guid(ef02c051ad44db248ad95177eea716fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-start-line.prefab using Guid(ef02c051ad44db248ad95177eea716fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9649278df7775a7d2332c47cee7231') in 0.042274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454297 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight.fbx
+  artifactKey: Guid(959e0ccd312393741bcdf732dea6827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight.fbx using Guid(959e0ccd312393741bcdf732dea6827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011caeede09494f4ff4dcc1f9b1bad0e') in 0.047728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight.prefab
+  artifactKey: Guid(17f901a6d1caf50499134654e38a60c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight.prefab using Guid(17f901a6d1caf50499134654e38a60c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eeee0c59202f9ad21b1168b14ef85e') in 0.043412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.951640 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight.fbx
+  artifactKey: Guid(fd65813bb9e70774bb2fd4a502871d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight.fbx using Guid(fd65813bb9e70774bb2fd4a502871d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd093efe02d9d8a990fa894a540b1a56') in 0.046406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072296 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-straight.prefab
+  artifactKey: Guid(c3c21eb349aaf144aad3b65034402001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-straight.prefab using Guid(c3c21eb349aaf144aad3b65034402001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cecdd456f61946c0cd1672a6d329656') in 0.046926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight-curbs.fbx
+  artifactKey: Guid(e2d8d3a51fe77cf4eb743dc8233cad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight-curbs.fbx using Guid(e2d8d3a51fe77cf4eb743dc8233cad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c24be85606c0ee9c282e8621c0f3782') in 0.044567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795501 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-straight-curbs.prefab
+  artifactKey: Guid(e9b8fae8bc4b30c488eeb2ab5e176572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Race_T/tile-race-track-straight-curbs.prefab using Guid(e9b8fae8bc4b30c488eeb2ab5e176572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b26770588253d83dc8c1ea017744a8') in 0.045085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.905017 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight-curbs.prefab
+  artifactKey: Guid(60d4f09786f3ad745925da4363951093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight-curbs.prefab using Guid(60d4f09786f3ad745925da4363951093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677dea925e530616c59e64f20fe81f6c') in 0.051195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight-curbs.fbx
+  artifactKey: Guid(3cfc430a3585acb48b57e9a869446757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight-curbs.fbx using Guid(3cfc430a3585acb48b57e9a869446757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c918d3e5f4e98ce3bb06d4507a788a') in 0.039823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.382761 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight-curbs-sand.fbx
+  artifactKey: Guid(32deb2b29be9fa348ae64a0700b87c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Race_T/tile-race-track-straight-curbs-sand.fbx using Guid(32deb2b29be9fa348ae64a0700b87c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c49835ce5cd5893c8c8ea8c14d162f') in 0.044543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight-curbs-sand.fbx
+  artifactKey: Guid(e652032a44eaf904b9a6efc55c52dd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Race_M/tile-race-track-straight-curbs-sand.fbx using Guid(e652032a44eaf904b9a6efc55c52dd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4283f0149773b83045cbb962205ea472') in 0.047114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight-curbs-sand.prefab
+  artifactKey: Guid(989744d0e7c2a914d96d4ed7172c2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Race_M/tile-race-track-straight-curbs-sand.prefab using Guid(989744d0e7c2a914d96d4ed7172c2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b3885c5d575e6c06bb333e62646c81') in 0.041424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.293392 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Medieval_M/marketplace-stand_simple.fbx
+  artifactKey: Guid(f0e4ccef2615b4795a79c5625b00ec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Medieval_M/marketplace-stand_simple.fbx using Guid(f0e4ccef2615b4795a79c5625b00ec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277bc43518da58f8e7f931858be7d555') in 0.050786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/microphone-stand.fbx
+  artifactKey: Guid(d2af14430d4cd474fa3dedffc558f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/microphone-stand.fbx using Guid(d2af14430d4cd474fa3dedffc558f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937aa970892b474d217f0287dd57f493') in 0.046717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Music_M/microphone-stand.prefab
+  artifactKey: Guid(7208bb1de756dd14185a31ebc4bb4b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Music_M/microphone-stand.prefab using Guid(7208bb1de756dd14185a31ebc4bb4b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083bc11e623d28f76e897bbe4779150b') in 0.045190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Music_M/microphone-stand.fbx
+  artifactKey: Guid(b1013ee2f20abab4b9af387c8a88eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Music_M/microphone-stand.fbx using Guid(b1013ee2f20abab4b9af387c8a88eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a063bc96fc1df4fe588b6d124710ce6') in 0.041262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Music_T/microphone-stand.prefab
+  artifactKey: Guid(82180847174e64847a7fcb362a1e4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Music_T/microphone-stand.prefab using Guid(82180847174e64847a7fcb362a1e4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c4e640818a622dd017f6dd95e4d58d') in 0.043138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.795133 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball-stand.prefab
+  artifactKey: Guid(7381906dd451f4cec9b77266bd6ab5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball-stand.prefab using Guid(7381906dd451f4cec9b77266bd6ab5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de9fe1a566252d68ec179e4e2a73c1') in 0.054951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/car-veteran.fbx
+  artifactKey: Guid(1167e7217ca09f4428be869a20675d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/car-veteran.fbx using Guid(1167e7217ca09f4428be869a20675d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0024b4dcb74cad7266c8acd6275e8c4b') in 0.093866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Sport_T/basketball-stand.prefab
+  artifactKey: Guid(2b5b051aaca5b4d588b94c319cb707bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Sport_T/basketball-stand.prefab using Guid(2b5b051aaca5b4d588b94c319cb707bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ed9d7a0765020c872170603163b4eb') in 0.047565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Sport_T/basketball-stand.fbx
+  artifactKey: Guid(5247a74f3413c41d299e23dc3d7626d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Sport_T/basketball-stand.fbx using Guid(5247a74f3413c41d299e23dc3d7626d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401c795a38d889df4bd8c5e00a7a186') in 0.038750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/City_T/bike-stand.prefab
+  artifactKey: Guid(03651bbccbab71d43b351bf78cc4cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/City_T/bike-stand.prefab using Guid(03651bbccbab71d43b351bf78cc4cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039667b3aaad46d6f7f6f7d51a34c26f') in 0.047581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bike-stand.fbx
+  artifactKey: Guid(c1454b6234e8a6c458fe4af77856eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bike-stand.fbx using Guid(c1454b6234e8a6c458fe4af77856eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948415776d27c86fe4d6f9b645bd37e3') in 0.042847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.619111 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Props_M/City_M/bike-stand.prefab
+  artifactKey: Guid(75d0e65f68e065e46bc458325c75fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Props_M/City_M/bike-stand.prefab using Guid(75d0e65f68e065e46bc458325c75fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e67a5e884f2b5fbf29b3f9589e0216') in 0.044388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Egypt_T/egypt-stand.prefab
+  artifactKey: Guid(c5b9370e7fe09f04ca60f385f2bf2a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Egypt_T/egypt-stand.prefab using Guid(c5b9370e7fe09f04ca60f385f2bf2a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebe826b92caad56d89376cbdb95fc2') in 0.044643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-stand.fbx
+  artifactKey: Guid(6b30a93b22cc57f428560906c366b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-stand.fbx using Guid(6b30a93b22cc57f428560906c366b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a5d13cc4e6b83589f2d6b5d5eaa746') in 0.040853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/egypt-stand.fbx
+  artifactKey: Guid(906130273d919f7499c1db56c3541057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/egypt-stand.fbx using Guid(906130273d919f7499c1db56c3541057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714214b7208bc5e43882f95659f7bdf0') in 0.044068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.641272 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Egypt_M/egypt-stand.prefab
+  artifactKey: Guid(24eb928a54d22bc409fa82ba11d023ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Egypt_M/egypt-stand.prefab using Guid(24eb928a54d22bc409fa82ba11d023ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723ad91b5453ae185d6888ebb0ebcfd4') in 0.036511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Egypt_M/egypt-stand-small.prefab
+  artifactKey: Guid(4cd767daf670682449986ef6564943e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Egypt_M/egypt-stand-small.prefab using Guid(4cd767daf670682449986ef6564943e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c3960cc4d1936571f0f2985ec25501') in 0.043582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-stand-small.fbx
+  artifactKey: Guid(cf3639eeab7c1004c8624e77f4b72ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-stand-small.fbx using Guid(cf3639eeab7c1004c8624e77f4b72ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c40b4188ad741611f23b5b4f71ed7c9') in 0.045996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041079 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/egypt-stand-small.fbx
+  artifactKey: Guid(2d97c852609a57f449a9204e5fc3a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/egypt-stand-small.fbx using Guid(2d97c852609a57f449a9204e5fc3a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412e2648b07992fb78922bbea75af83') in 0.039746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Egypt_T/egypt-stand-small.prefab
+  artifactKey: Guid(89f4396468914f54a98d197382f2df77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Egypt_T/egypt-stand-small.prefab using Guid(89f4396468914f54a98d197382f2df77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8214d9cd5b08a45c15666c3322970') in 0.040330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448891 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Buildings_M/ferris-wheel.fbx
+  artifactKey: Guid(259c90d442d45ec45b5dafe44a9bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Buildings_M/ferris-wheel.fbx using Guid(259c90d442d45ec45b5dafe44a9bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc21902142e5bfa70c44b1116681f98') in 0.125800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Buildings_T/ferris-wheel.fbx
+  artifactKey: Guid(603f14aacf028d849b995c9671762c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Buildings_T/ferris-wheel.fbx using Guid(603f14aacf028d849b995c9671762c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef1f0a0a57565a0da38ec0f927fbe23') in 0.138032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205532 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/hot-dog-stand.fbx
+  artifactKey: Guid(854f079bd9877244e8a4b8564beb9f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/hot-dog-stand.fbx using Guid(854f079bd9877244e8a4b8564beb9f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0f21e20a8ad10825eeeff2a7559df4') in 0.045776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Props_M/City_M/hot-dog-stand.prefab
+  artifactKey: Guid(bae7325e5706bb749b70ba75c3bb4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Props_M/City_M/hot-dog-stand.prefab using Guid(bae7325e5706bb749b70ba75c3bb4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd4483f3719438434d3beb8de73d1db') in 0.059577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/marketplace-stand_simple.fbx
+  artifactKey: Guid(afd3d3b37f825462c8497875f6c21b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/marketplace-stand_simple.fbx using Guid(afd3d3b37f825462c8497875f6c21b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7830a176b6e81ca85f4a303747eb2e4') in 0.079280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/City_T/hot-dog-stand.prefab
+  artifactKey: Guid(ee06803832a7a2e4abed560945bde1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/City_T/hot-dog-stand.prefab using Guid(ee06803832a7a2e4abed560945bde1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc2f62938ffe1a358ff03a2dfb60002') in 0.046524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198158 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Medieval_M/marketplace-stand_simple.prefab
+  artifactKey: Guid(3956c670eaf2649c0981c63c7d3100b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Medieval_M/marketplace-stand_simple.prefab using Guid(3956c670eaf2649c0981c63c7d3100b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5e9d086e750ab1454bee0cc21dabc3') in 0.045459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Medieval_T/marketplace-stand_simple.prefab
+  artifactKey: Guid(df5a7769ecea71448afa8a4da8528c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/Medieval_T/marketplace-stand_simple.prefab using Guid(df5a7769ecea71448afa8a4da8528c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5d99976138b69e578c6cb3e2842e3f') in 0.041767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.096249 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/People_M/boy-sport.fbx
+  artifactKey: Guid(7a9a06596fc174f9ba0de89023ab7e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/People_M/boy-sport.fbx using Guid(7a9a06596fc174f9ba0de89023ab7e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f389200564c0a3eeb2fe6b7b740ab6') in 0.053135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/boy-sport.prefab
+  artifactKey: Guid(1a40ffd21ea184e02addf27e87d2a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/boy-sport.prefab using Guid(1a40ffd21ea184e02addf27e87d2a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe9281895e90df1affb2f1f8dbbb6d5') in 0.045540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/People_M/boy-sport.prefab
+  artifactKey: Guid(6515975e1087a43a49a85f8ace7230ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/People_M/boy-sport.prefab using Guid(6515975e1087a43a49a85f8ace7230ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77b5074702d9f5fe1d2c4c20b0e9ec2') in 0.050894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/People_M/Rigs_M/boy-sport_Rig.fbx
+  artifactKey: Guid(3c61c207a654deb4588b93eab550760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/People_M/Rigs_M/boy-sport_Rig.fbx using Guid(3c61c207a654deb4588b93eab550760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a79690dbc81b3183370aca6435a9a6') in 0.063094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/People_T/boy-sport.fbx
+  artifactKey: Guid(5637f53a9d41743d7b4ae55449aec081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/People_T/boy-sport.fbx using Guid(5637f53a9d41743d7b4ae55449aec081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2b1d92f170cdbb55d38e555fef6249') in 0.040561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.129284 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/People_M/Rigs_M/boy-sport_Rig.prefab
+  artifactKey: Guid(81da6650842054d4094fbea1cc2b285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/People_M/Rigs_M/boy-sport_Rig.prefab using Guid(81da6650842054d4094fbea1cc2b285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07baea6bb53ae2acb8085215d2e4307b') in 0.038763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047109 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/Rigs_T/boy-sport_Rig.prefab
+  artifactKey: Guid(d2087cc8ab760c1469952d5aee4e2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/Rigs_T/boy-sport_Rig.prefab using Guid(d2087cc8ab760c1469952d5aee4e2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7713935f3e882b05caa2fa75a0685df') in 0.046538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/People_T/Rigs_T/boy-sport_Rig.fbx
+  artifactKey: Guid(99ca07b1fdce3ab4d998f2dad4abc421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/T/- Meshes_T/People_T/Rigs_T/boy-sport_Rig.fbx using Guid(99ca07b1fdce3ab4d998f2dad4abc421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c70b1d059f39551c631efe9b2b6cb0c') in 0.044909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.208874 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M
+  artifactKey: Guid(69b750a50d529c543ab48e7cb52bcccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M using Guid(69b750a50d529c543ab48e7cb52bcccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f2ea009a63c4aa2dbdaccbeac464f6') in 0.027315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044008 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/baseball-bat.prefab
+  artifactKey: Guid(7822504806bd76144a7d8dd8298ffecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/baseball-bat.prefab using Guid(7822504806bd76144a7d8dd8298ffecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e25561f65dbea920906100a786c24b') in 0.047609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-flag.prefab
+  artifactKey: Guid(ea0e2345b2486684bba5026b51d37b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-flag.prefab using Guid(ea0e2345b2486684bba5026b51d37b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4563935deb4282a7510830304974c01') in 0.040950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-club-iron.prefab
+  artifactKey: Guid(2d0761770d44ece43980ea72d6d4cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-club-iron.prefab using Guid(2d0761770d44ece43980ea72d6d4cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6742a7c83ecf3af747a9abc3d0f5559') in 0.042802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-bag.prefab
+  artifactKey: Guid(ed53c86a2c810c647800dd55b6d4a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-bag.prefab using Guid(ed53c86a2c810c647800dd55b6d4a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bd21fee3b29f4021a435dd8d5c3bcc') in 0.044253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-seat.prefab
+  artifactKey: Guid(11b2a34b0bfde934f83a885723320197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-seat.prefab using Guid(11b2a34b0bfde934f83a885723320197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9066ec01c2cdb6daa45d32c1996f6a3b') in 0.044561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/box-glove.prefab
+  artifactKey: Guid(cf8cafb1ce3777f4286e7d2dc680b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/box-glove.prefab using Guid(cf8cafb1ce3777f4286e7d2dc680b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e1bee260a9f7b58ddd4f6206d1f335') in 0.042121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-stake.prefab
+  artifactKey: Guid(b61504e73fb9cd142a8d6426253cf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-stake.prefab using Guid(b61504e73fb9cd142a8d6426253cf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed805b4f8e1cbeeff7dbd5168c716d80') in 0.050141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball.prefab
+  artifactKey: Guid(0125367fa9edd48c796480c24eef7a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball.prefab using Guid(0125367fa9edd48c796480c24eef7a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf52315ac446820d627b210bef49f3b1') in 0.050976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/flag-golf.prefab
+  artifactKey: Guid(bac07735ce61ee84d8d577b8772b08fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/flag-golf.prefab using Guid(bac07735ce61ee84d8d577b8772b08fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785965f9255d2b1f563dcd7980e0c6fa') in 0.063458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/skateboard.prefab
+  artifactKey: Guid(2334fad76b4ce2945a59d5c9011dda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/skateboard.prefab using Guid(2334fad76b4ce2945a59d5c9011dda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa893265a57d71abb5f280dbc3285dcc') in 0.059705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339272 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-pole.prefab
+  artifactKey: Guid(201e82b931e09724b88b8b2763aadbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-pole.prefab using Guid(201e82b931e09724b88b8b2763aadbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0869e002d9f8a3b9bc0b615056ebe98a') in 0.040250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski.prefab
+  artifactKey: Guid(3c99b84baf8a2ea4c9bb5e0da5e86ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski.prefab using Guid(3c99b84baf8a2ea4c9bb5e0da5e86ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23e63dfb8aa04693924c5eeec2818dc') in 0.041385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/snowboard.prefab
+  artifactKey: Guid(82bf4fa6430171d4ca165a29d46ff6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/snowboard.prefab using Guid(82bf4fa6430171d4ca165a29d46ff6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efc394cade414488955ed4115fd0968') in 0.041362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/soccer-gate.prefab
+  artifactKey: Guid(5e474b838d26b438aa7e30d73caec266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/soccer-gate.prefab using Guid(5e474b838d26b438aa7e30d73caec266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3b85fda550ccdef392a297073af44') in 0.040565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/soccer-ball.prefab
+  artifactKey: Guid(106db0498aa0841858844b03cd6efeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/soccer-ball.prefab using Guid(106db0498aa0841858844b03cd6efeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce60ec102c48fecd890b94dcff72fea') in 0.040647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/snow-jump.prefab
+  artifactKey: Guid(0fd3c3ea9d20bc548889fb5be94d121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/snow-jump.prefab using Guid(0fd3c3ea9d20bc548889fb5be94d121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0ae17399be216f2c2f587d23b908f0') in 0.040163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353287 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/windsurf.prefab
+  artifactKey: Guid(66ebaa534ba2872499d17394c573806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/windsurf.prefab using Guid(66ebaa534ba2872499d17394c573806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56227908657df8941f11b465c1e8c25c') in 0.041149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.672150 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/barrier-concrete-glass.fbx
+  artifactKey: Guid(af7c778e6a8c2a44a92662943f48bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/barrier-concrete-glass.fbx using Guid(af7c778e6a8c2a44a92662943f48bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5f561d75dff5533eb938cbe1c8636a') in 0.063003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/barrier-traffic.fbx
+  artifactKey: Guid(e803b564eb839064389e3ebb317a3dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/barrier-traffic.fbx using Guid(e803b564eb839064389e3ebb317a3dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74bcb868f6ae76211e02f3393a881aa') in 0.044581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/plastic-barriers-20m-low-poly.fbx
+  artifactKey: Guid(1cbac6e03e61f9a4f8637509ad99cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pack/Low Poly Ultimate Pack/M/- Meshes_M/Racing_M/plastic-barriers-20m-low-poly.fbx using Guid(1cbac6e03e61f9a4f8637509ad99cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c3241268712e61775f2173cf1c98c9') in 0.046872 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.761 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
+System memory in use before: 86.1 MB.
+System memory in use after: 86.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1752.
-Total: 1.462600 ms (FindLiveObjects: 0.092200 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.327800 ms  DeleteObjects: 0.010000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 1.627800 ms (FindLiveObjects: 0.098000 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.484700 ms  DeleteObjects: 0.011000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 368.377058 seconds.
-  path: Assets/Animations/Walking.anim
-  artifactKey: Guid(210387a209d8051448cfb52a67da62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Walking.anim using Guid(210387a209d8051448cfb52a67da62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691935f8148cf7049a8a5de050d29cc') in 0.042661 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001585 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 1.539900 ms (FindLiveObjects: 0.105400 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.383800 ms  DeleteObjects: 0.011000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1761.
-Total: 1.496900 ms (FindLiveObjects: 0.097500 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.353000 ms  DeleteObjects: 0.010900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1795.
+Total: 1.483500 ms (FindLiveObjects: 0.111900 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.317800 ms  DeleteObjects: 0.014000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
