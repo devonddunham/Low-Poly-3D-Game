@@ -10,7 +10,6 @@ public class ThirdPersonMovement : MonoBehaviour
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
-
     HubAnimationController hubAnimationController;
 
 
@@ -23,8 +22,13 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
+    }
+
+    public void Move()
+    {
         // dont do anything below if its true
-        if (hubAnimationController.isPlaying == true)
+        if (hubAnimationController.isPlaying)
             return;
 
         float horizontal = Input.GetAxisRaw("Horizontal");
