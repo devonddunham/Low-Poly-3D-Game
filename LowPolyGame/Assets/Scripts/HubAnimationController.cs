@@ -7,7 +7,8 @@ public class HubAnimationController : MonoBehaviour
     public GameObject menuAnim;
 
     // [HideInInspector]
-    public bool isPlaying;
+    [HideInInspector] public bool isPlaying;
+
 
     void Start()
     {

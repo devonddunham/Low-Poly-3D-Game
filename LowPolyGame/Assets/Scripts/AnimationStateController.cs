@@ -9,6 +9,7 @@ public class AnimationStateController : MonoBehaviour
     int isWalkingHash;
     int isRunningHash;
     int isDancingHash;
+    HubAnimationController hubAnimationController;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,22 @@ public class AnimationStateController : MonoBehaviour
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
         isDancingHash = Animator.StringToHash("isDancing");
+
+        hubAnimationController = FindObjectOfType<HubAnimationController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Animation();
+    }
+
+    public void Animation()
+    {
+        // if hub animation is playing then dont allow the player to animate
+        if (hubAnimationController.isPlaying)
+            return;
+
         bool walkingPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d");
         bool isWalking = animator.GetBool(isWalkingHash);
 
