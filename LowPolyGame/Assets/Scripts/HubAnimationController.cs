@@ -4,29 +4,31 @@ using UnityEngine;
 
 public class HubAnimationController : MonoBehaviour
 {
-    private GameObject menuAnim;
-    [HideInInspector] public bool isPlaying;
+    public GameObject menuAnim;
+
+    // [HideInInspector]
+    public bool isPlaying;
 
     void Start()
     {
-        menuAnim = GameObject.Find("MenuAnimation");
+        // menuAnim = GameObject.Find("MenuAnimation");
         menuAnim.SetActive(true);
+        isPlaying = true;
     }
 
     void Update()
     {
-        bool isPPressed = Input.GetKey(KeyCode.P);
-
-        if (isPPressed)
+        if (Input.GetKeyDown(KeyCode.P))
         {
             if (!menuAnim.activeInHierarchy)
             {
                 menuAnim.SetActive(true);
                 isPlaying = true;
             }
-            else if (menuAnim.activeInHierarchy)
+            else
             {
                 menuAnim.SetActive(false);
+                isPlaying = false;
             }
         }
     }

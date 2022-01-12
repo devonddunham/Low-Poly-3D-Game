@@ -17,12 +17,16 @@ public class ThirdPersonMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        hubAnimationController = FindObjectOfType<HubAnimationController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // dont do anything below if its true
+        if (hubAnimationController.isPlaying == true)
+            return;
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
