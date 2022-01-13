@@ -17,5 +17,14 @@ public class RaceCarMovement : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animController.Play("TurnLeft");
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animController.Play("TurnRight");
+        }
     }
 }
