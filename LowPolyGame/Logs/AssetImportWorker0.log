@@ -15,11 +15,11 @@ D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56459
+60738
 Successfully changed project path to: D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,152 +35,121 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002221 seconds.
+Registered in 0.003174 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 74.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.451 seconds
+- Completed reload, in  1.408 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001428 seconds.
+Registered in 0.001361 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.908 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1350 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1827.
-Total: 1.741200 ms (FindLiveObjects: 0.121500 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.492300 ms  DeleteObjects: 0.080200 ms)
+Total: 1.840200 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.565900 ms  DeleteObjects: 0.103500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3285f50fa87c0ec1b9ed5b1302ccda77') in 0.070383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.610181 seconds.
   path: Assets/Scripts/RaceCarMovement.cs
   artifactKey: Guid(16e7cf3aaf012b048b89c1433001bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RaceCarMovement.cs using Guid(16e7cf3aaf012b048b89c1433001bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d5fbdada3c3ad1edea02cd08f9a6b') in 0.087521 seconds 
+Start importing Assets/Scripts/RaceCarMovement.cs using Guid(16e7cf3aaf012b048b89c1433001bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44517facb10a4bce15cf5407ef7f2a9e') in 0.142712 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.7 MB.
+System memory in use after: 54.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1827.
+Total: 1.529600 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.375500 ms  DeleteObjects: 0.009100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.675837 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6dec399b7874cff598239e97b2f254') in 0.068261 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001316 seconds.
+Registered in 0.001615 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  0.842 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.5 MB.
-System memory in use after: 81.6 MB.
+System memory in use before: 81.6 MB.
+System memory in use after: 81.7 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 1.597600 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.418300 ms  DeleteObjects: 0.012100 ms)
+Total: 2.394400 ms (FindLiveObjects: 0.319400 ms CreateObjectMapping: 0.121400 ms MarkObjects: 1.934100 ms  DeleteObjects: 0.016600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 122.820867 seconds.
-  path: Assets/Scripts/RaceCarMovement.cs
-  artifactKey: Guid(16e7cf3aaf012b048b89c1433001bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RaceCarMovement.cs using Guid(16e7cf3aaf012b048b89c1433001bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2755996abcb4f8e87bc945daedf8b8') in 0.022350 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001328 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.5 MB.
-System memory in use after: 81.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 1.490200 ms (FindLiveObjects: 0.111300 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.326000 ms  DeleteObjects: 0.011300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 507.921879 seconds.
-  path: Assets/Animations/Car/TurnRight.anim
-  artifactKey: Guid(fe3b93f7aacf069498fc84225c6f551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Car/TurnRight.anim using Guid(fe3b93f7aacf069498fc84225c6f551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e977fb3c5f17b7899dc1ba4921e84f') in 0.037033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.468001 seconds.
+  Time since last request: 151.024683 seconds.
   path: Assets/Animations/Car/TurnLeft.anim
   artifactKey: Guid(c50a886e39f59ba42ab2d63d71dd42a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Car/TurnLeft.anim using Guid(c50a886e39f59ba42ab2d63d71dd42a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6516b0f84a16d362276861c7a1663') in 0.024613 seconds 
+Start importing Assets/Animations/Car/TurnLeft.anim using Guid(c50a886e39f59ba42ab2d63d71dd42a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c5d98741e6a1d2d959ba214da3ef3f') in 0.043670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.189514 seconds.
+  path: Assets/Animations/Car/TurnRight.anim
+  artifactKey: Guid(fe3b93f7aacf069498fc84225c6f551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Car/TurnRight.anim using Guid(fe3b93f7aacf069498fc84225c6f551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f60db9ebd8b70df164b1a01efdd5771') in 0.037747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.241635 seconds.
+  path: Assets/Animations/Car/car-passenger-race.controller
+  artifactKey: Guid(36dcb76950ab20f4cbd80915042f8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Car/car-passenger-race.controller using Guid(36dcb76950ab20f4cbd80915042f8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db69b6e7171a31cd9ee5122faae4a42') in 0.054217 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001388 seconds.
+Registered in 0.004278 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.5 MB.
-System memory in use after: 81.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 1.510400 ms (FindLiveObjects: 0.127800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.325400 ms  DeleteObjects: 0.010800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001642 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  0.736 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.5 MB.
-System memory in use after: 81.6 MB.
+System memory in use before: 81.7 MB.
+System memory in use after: 81.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 1.496700 ms (FindLiveObjects: 0.111400 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.332200 ms  DeleteObjects: 0.011300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 1.520500 ms (FindLiveObjects: 0.131900 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.334900 ms  DeleteObjects: 0.010900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
