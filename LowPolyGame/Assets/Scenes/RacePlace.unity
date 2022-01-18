@@ -368,7 +368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779065751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -21.5, z: 41.7}
+  m_LocalPosition: {x: 13.6, y: -18.327982, z: 45.734024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 324857071}
@@ -606,8 +606,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e7cf3aaf012b048b89c1433001bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 100
+  turnSpeed: 80
   animController: {fileID: 926381614}
+  carPosition: 0
+  car: {fileID: 926381613}
+  pos1: {fileID: 1889570885}
+  pos2: {fileID: 1284879020}
+  pos3: {fileID: 779065752}
+  canAnim: 0
 --- !u!1 &1284879019
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284879019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.50610685, y: -18.327982, z: 45.734024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 324857071}
@@ -759,7 +766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889570884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -12.72, y: -18.327982, z: 45.734024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 324857071}
