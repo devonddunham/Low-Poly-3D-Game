@@ -54,20 +54,25 @@ public class RaceCarMovement : MonoBehaviour
         if (carPosition == 0)
         {
             car.transform.position = Vector3.MoveTowards(car.transform.position, pos2.transform.position, turnSpeed * Time.deltaTime);
-            if (car.transform.position == pos2.transform.position)
+            // if (car.transform.position == pos2.transform.position)
+            // {
+            animController.SetBool("canTurnLeft", false);
+            animController.SetBool("canTurnRight", false);
+
+
+            if (Input.GetKeyDown(KeyCode.A))
             {
 
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-
-                    animController.Play("TurnLeft");
-                }
-                if (Input.GetKeyDown(KeyCode.D))
-                {
-
-                    animController.Play("TurnRight");
-                }
+                animController.Play("TurnLeft");
+                animController.SetBool("canTurnLeft", true);
             }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+
+                animController.Play("TurnRight");
+                animController.SetBool("canTurnRight", true);
+            }
+            //   }
 
         }
 
