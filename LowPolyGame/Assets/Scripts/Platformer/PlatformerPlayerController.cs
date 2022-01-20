@@ -5,77 +5,63 @@ using UnityEngine.SceneManagement;
 
 public class PlatformerPlayerController : MonoBehaviour
 {
-    private Rigidbody rb;
-    private BoxCollider coll;
-    private SpriteRenderer sprite;
-    private Animator anim;
+    //Movement
+    public float speed;
+    public float jumpSpeed;
+    float moveVelocity;
 
-    [SerializeField] private LayerMask jumpableGround;
+    //Grounded Vars
+    [SerializeField] bool isGrounded = true;
 
-    private float dirX = 0f;
-    [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float jumpForce = 14f;
+    Rigidbody rb;
 
-    //private enum MovementState { idle, running, jumping, falling }
-
-    // [SerializeField] private AudioSource jumpSoundEffect;
-
-    // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
-        coll = GetComponent<BoxCollider>();
-        sprite = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    private void Update()
+    void Update()
     {
-        dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        Jump();
+        Movement();
+    }
+    //Check if Grounded
+    void OnTriggerEnter()
+    {
+        isGrounded = true;
+    }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+
+    public void Jump()
+    {
+
+        bool isJumping = Input.GetButtonDown("Jump");
+        //Jumping
+        if (isJumping && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            isGrounded = false;
+        }
+    }
+
+    public void Movement()
+    {
+        moveVelocity = 0;
+
+        //Left Right Movement
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            moveVelocity = -speed;
+            transform.eulerAngles = new Vector3(0, -90, 0); // Flipped
+            // transform.localScale = new Vector2(1f, 1f);
+        }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            transform.eulerAngles = new Vector3(0, 90, 0); // Flipped
+            moveVelocity = speed;
+            // transform.localScale = new Vector2(-1f, 1f);
         }
 
-        // UpdateAnimationState();
-    }
-
-    // private void UpdateAnimationState()
-    // {
-    //     MovementState state;
-
-    //     if (dirX > 0f)
-    //     {
-    //         state = MovementState.running;
-    //         sprite.flipX = false;
-    //     }
-    //     else if (dirX < 0f)
-    //     {
-    //         state = MovementState.running;
-    //         sprite.flipX = true;
-    //     }
-    //     else
-    //     {
-    //         state = MovementState.idle;
-    //     }
-
-    //     if (rb.velocity.y > .1f)
-    //     {
-    //         state = MovementState.jumping;
-    //     }
-    //     else if (rb.velocity.y < -.1f)
-    //     {
-    //         state = MovementState.falling;
-    //     }
-
-    //     anim.SetInteger("state", (int)state);
-    // }
-
-    private bool IsGrounded()
-    {
-        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        rb.velocity = new Vector2(moveVelocity, rb.velocity.y);
     }
 }
