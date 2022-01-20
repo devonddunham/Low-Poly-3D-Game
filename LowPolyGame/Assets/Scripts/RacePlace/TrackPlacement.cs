@@ -14,7 +14,7 @@ public class TrackPlacement : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Devons a nerd");
+
             Instantiate(track, instantPos.transform.position, Quaternion.identity);
         }
     }
