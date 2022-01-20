@@ -201,6 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6393866604252724964}
+  - component: {fileID: 5339624717403904593}
   m_Layer: 0
   m_Name: BarrierTwo
   m_TagString: Untagged
@@ -230,6 +231,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5339624717403904593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825344483897138556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.593155, y: 10.369499, z: 1}
+  m_Center: {x: 0.6602857, y: -15.917717, z: 0}
 --- !u!1 &6079498536143852530
 GameObject:
   m_ObjectHideFlags: 0

@@ -489,6 +489,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4153952285255231263}
+  - component: {fileID: 2844935521791695028}
+  - component: {fileID: 1083921819470471992}
   m_Layer: 0
   m_Name: BarrierFive
   m_TagString: Untagged
@@ -526,6 +528,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2844935521791695028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4706160918246892433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.773151, y: 10.369499, z: 1}
+  m_Center: {x: -13.241625, y: -15.917717, z: 0}
+--- !u!65 &1083921819470471992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4706160918246892433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.953741, y: 10.369499, z: 1}
+  m_Center: {x: 13.114692, y: -15.917717, z: 0}
 --- !u!1 &5145366343113626520
 GameObject:
   m_ObjectHideFlags: 0

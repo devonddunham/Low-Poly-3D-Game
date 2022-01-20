@@ -1545,6 +1545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3377994819706240247}
+  - component: {fileID: 1799461793148725262}
   m_Layer: 0
   m_Name: BarrierFour
   m_TagString: Untagged
@@ -1582,3 +1583,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1799461793148725262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9133664105539010454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.14644, y: 10.369499, z: 1}
+  m_Center: {x: -6.5549803, y: -15.917717, z: 0}
