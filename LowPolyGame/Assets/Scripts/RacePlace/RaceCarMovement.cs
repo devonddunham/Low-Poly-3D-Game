@@ -21,9 +21,11 @@ public class RaceCarMovement : MonoBehaviour
     public int health = 3;
     public Text healthText;
     public bool canAnim = false;
+    public GameObject gameOverPanel;
     public void Start()
     {
         healthText.text = "Lives: " + health;
+        gameOverPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -52,6 +54,11 @@ public class RaceCarMovement : MonoBehaviour
                 animController.SetBool("canTurnLeft", false);
             }
 
+        }
+
+        if (health <= 0)
+        {
+            gameOverPanel.SetActive(true);
         }
 
 

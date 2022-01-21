@@ -5,6 +5,7 @@ using UnityEngine;
 public class RaceBarrier : MonoBehaviour
 {
     public RaceCarMovement raceMove;
+    public GameObject explosion;
     void Start()
     {
         raceMove = FindObjectOfType<RaceCarMovement>();
@@ -17,6 +18,7 @@ public class RaceBarrier : MonoBehaviour
         {
 
             raceMove.RemoveHealth();
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

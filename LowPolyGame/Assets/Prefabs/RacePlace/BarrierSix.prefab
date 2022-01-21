@@ -571,6 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raceMove: {fileID: 0}
+  explosion: {fileID: 191186, guid: 079954accd64b32419ec069129c81273, type: 3}
 --- !u!1 &3444365198165762356
 GameObject:
   m_ObjectHideFlags: 0
