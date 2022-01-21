@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinScript : MonoBehaviour
+public class RaceBarrier : MonoBehaviour
 {
     public RaceCarMovement raceMove;
-    public float additionalSpeed;
     void Start()
     {
         raceMove = FindObjectOfType<RaceCarMovement>();
+        Destroy(gameObject, 20);
     }
 
     public void OnTriggerEnter(Collider other)
@@ -16,7 +16,7 @@ public class CoinScript : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
 
-            raceMove.moveSpeed += additionalSpeed;
+            raceMove.RemoveHealth();
             Destroy(gameObject);
         }
     }

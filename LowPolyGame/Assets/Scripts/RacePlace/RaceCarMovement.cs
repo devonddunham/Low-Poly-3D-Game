@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class RaceCarMovement : MonoBehaviour
 {
 
@@ -15,10 +15,15 @@ public class RaceCarMovement : MonoBehaviour
     public Transform pos2;
     public Transform pos3;
 
+    public int score;
+    public Text scoreText;
+
+    public int health = 3;
+    public Text healthText;
     public bool canAnim = false;
     public void Start()
     {
-
+        healthText.text = "Lives: " + health;
     }
 
     // Update is called once per frame
@@ -107,5 +112,16 @@ public class RaceCarMovement : MonoBehaviour
             carPosition += 1;
             animController.Play("TurnRight");
         }
+    }
+
+    public void AddScore()
+    {
+        score += 10;
+        scoreText.text = "Score: " + score;
+    }
+    public void RemoveHealth()
+    {
+        health -= 1;
+        healthText.text = "Lives: " + health;
     }
 }
