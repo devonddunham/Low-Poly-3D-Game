@@ -9,11 +9,11 @@ public class PlatformerPlayerController : MonoBehaviour
     public float speed;
     public float jumpSpeed;
     float moveVelocity;
-
-    //Grounded Vars
     [SerializeField] bool isGrounded = true;
-
     Rigidbody rb;
+
+    public bool isMovingLeft;
+    public bool isMovingRight;
 
     void Start()
     {
@@ -48,14 +48,16 @@ public class PlatformerPlayerController : MonoBehaviour
     {
         moveVelocity = 0;
 
+        isMovingLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
+        isMovingRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
         //Left Right Movement
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (isMovingLeft)
         {
             moveVelocity = -speed;
             transform.eulerAngles = new Vector3(0, -90, 0); // Flipped
             // transform.localScale = new Vector2(1f, 1f);
         }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        if (isMovingRight)
         {
             transform.eulerAngles = new Vector3(0, 90, 0); // Flipped
             moveVelocity = speed;
