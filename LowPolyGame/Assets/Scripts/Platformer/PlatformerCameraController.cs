@@ -6,6 +6,12 @@ public class PlatformerCameraController : MonoBehaviour
 {
     public GameObject player;
 
+    [Header("Min's & Max's")]
+    public float xMin;
+    public float xMax;
+    public float yMin;
+    public float yMax;
+
     // Update is called once per frame
     void LateUpdate()
     {
@@ -16,38 +22,8 @@ public class PlatformerCameraController : MonoBehaviour
     {
         if (!player)
             return;
-        Vector3 offset = transform.position - player.transform.position;
-        bool changeInX = false;
-        bool changeInY = false;
-        Vector3 newCameraPosition = transform.position;
-        if (offset.x > 3)
-        {
-            changeInX = true;
-            newCameraPosition.x = (player.transform.position.x + offset.x) - (offset.x - 3);
-        }
-        else if (offset.x < -3)
-        {
-            changeInX = true;
-            newCameraPosition.x = (player.transform.position.x + offset.x) - (offset.x + 3);
-        }
-        if (offset.y > 2)
-        {
-            changeInY = true;
-            newCameraPosition.y = (player.transform.position.y + offset.y) - (offset.y - 2);
-        }
-        else if (offset.y < -2)
-        {
-            changeInY = true;
-            newCameraPosition.y = (player.transform.position.y + offset.y) - (offset.y + 2);
-        }
-        if (!changeInX)
-        {
-            newCameraPosition.x = transform.position.x;
-        }
-        if (!changeInY)
-        {
-            newCameraPosition.y = transform.position.y;
-        }
-        transform.position = newCameraPosition;
+        float x = Mathf.Clamp(player.transform.position.x, xMin, xMax);
+        float y = Mathf.Clamp(player.transform.position.y, yMin, yMax);
+        gameObject.transform.position = new Vector3(x, y, gameObject.transform.position.z);
     }
 }
