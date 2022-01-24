@@ -384,6 +384,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1111704020463065080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6437612680682745770}
+  m_Layer: 0
+  m_Name: ExplosionPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6437612680682745770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111704020463065080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -15.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4153952285255231263}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2787500534357696715
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +557,7 @@ Transform:
   - {fileID: 6356268517185514619}
   - {fileID: 3546304782596619184}
   - {fileID: 5892092927837088183}
+  - {fileID: 6437612680682745770}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -586,6 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raceMove: {fileID: 0}
   explosion: {fileID: 191186, guid: 079954accd64b32419ec069129c81273, type: 3}
+  explosionPos: {fileID: 6437612680682745770}
 --- !u!1 &5145366343113626520
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,9 @@ using UnityEngine.UI;
 public class RaceCarMovement : MonoBehaviour
 {
 
+    public static int highscore;
+
+
     public float moveSpeed = 5f;
     public float turnSpeed = 10f;
     public Animator animController;
@@ -15,6 +18,7 @@ public class RaceCarMovement : MonoBehaviour
     public Transform pos2;
     public Transform pos3;
 
+
     public int score;
     public Text scoreText;
 
@@ -22,12 +26,15 @@ public class RaceCarMovement : MonoBehaviour
     public Text healthText;
     public bool canAnim = false;
     public GameObject gameOverPanel;
-    public int gameOverScore;
-    public int gameOverHighScore;
+
+    public Text gameOverScore;
+    public Text gameOverHighScore;
 
     public bool canMove = true;
     public void Start()
     {
+        score = 0;
+        highscore = PlayerPrefs.GetInt("highscore", highscore);
         healthText.text = "Lives: " + health;
         gameOverPanel.SetActive(false);
     }
@@ -38,6 +45,7 @@ public class RaceCarMovement : MonoBehaviour
 
         GameOver();
         Movement();
+
 
     }
 
@@ -58,6 +66,8 @@ public class RaceCarMovement : MonoBehaviour
         {
             ScoreManager();
             canMove = false;
+            Destroy(scoreText.transform.parent.gameObject);
+            Destroy(healthText.transform.parent.gameObject);
             gameOverPanel.SetActive(true);
         }
 
@@ -156,6 +166,12 @@ public class RaceCarMovement : MonoBehaviour
 
     public void ScoreManager()
     {
+        if (score > highscore)
+            highscore = score;
 
+        gameOverScore.text = "Score: " + score;
+        gameOverHighScore.text = "High Score: " + highscore;
+
+        PlayerPrefs.SetInt("highscore", highscore);
     }
 }

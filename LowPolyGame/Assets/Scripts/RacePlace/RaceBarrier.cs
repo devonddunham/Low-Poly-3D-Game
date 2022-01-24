@@ -6,6 +6,7 @@ public class RaceBarrier : MonoBehaviour
 {
     public RaceCarMovement raceMove;
     public GameObject explosion;
+    public Transform explosionPos;
     void Start()
     {
         raceMove = FindObjectOfType<RaceCarMovement>();
@@ -16,9 +17,8 @@ public class RaceBarrier : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-
             raceMove.RemoveHealth();
-            Instantiate(explosion, transform.position, Quaternion.identity);
+            Instantiate(explosion, explosionPos.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
