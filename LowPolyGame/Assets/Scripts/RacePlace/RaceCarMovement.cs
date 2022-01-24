@@ -22,6 +22,10 @@ public class RaceCarMovement : MonoBehaviour
     public Text healthText;
     public bool canAnim = false;
     public GameObject gameOverPanel;
+    public int gameOverScore;
+    public int gameOverHighScore;
+
+    public bool canMove = true;
     public void Start()
     {
         healthText.text = "Lives: " + health;
@@ -31,6 +35,39 @@ public class RaceCarMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        GameOver();
+        Movement();
+
+    }
+
+    public void AddScore()
+    {
+        score += 10;
+        scoreText.text = "Score: " + score;
+    }
+    public void RemoveHealth()
+    {
+        health -= 1;
+        healthText.text = "Lives: " + health;
+    }
+
+    public void GameOver()
+    {
+        if (health <= 0)
+        {
+            ScoreManager();
+            canMove = false;
+            gameOverPanel.SetActive(true);
+        }
+
+    }
+
+    public void Movement()
+    {
+
+        if (!canMove)
+            return;
 
         if (carPosition == 2)
         {
@@ -56,10 +93,6 @@ public class RaceCarMovement : MonoBehaviour
 
         }
 
-        if (health <= 0)
-        {
-            gameOverPanel.SetActive(true);
-        }
 
 
 
@@ -121,14 +154,8 @@ public class RaceCarMovement : MonoBehaviour
         }
     }
 
-    public void AddScore()
+    public void ScoreManager()
     {
-        score += 10;
-        scoreText.text = "Score: " + score;
-    }
-    public void RemoveHealth()
-    {
-        health -= 1;
-        healthText.text = "Lives: " + health;
+
     }
 }
