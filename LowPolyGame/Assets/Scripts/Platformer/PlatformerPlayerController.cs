@@ -14,6 +14,7 @@ public class PlatformerPlayerController : MonoBehaviour
     GameObject player;
     bool isGrounded = true;
     Rigidbody rb;
+    [HideInInspector] public bool canMove = false;
 
     [HideInInspector] public bool isMovingLeft;
     [HideInInspector] public bool isMovingRight;
@@ -38,8 +39,11 @@ public class PlatformerPlayerController : MonoBehaviour
 
     void Update()
     {
-        Jump();
-        Movement();
+        if (canMove)
+        {
+            Jump();
+            Movement();
+        }
 
         if (lives <= 0)
         {
@@ -74,7 +78,6 @@ public class PlatformerPlayerController : MonoBehaviour
 
     public void Jump()
     {
-
         bool isJumping = Input.GetButtonDown("Jump");
         //Jumping
         if (isJumping && isGrounded)
