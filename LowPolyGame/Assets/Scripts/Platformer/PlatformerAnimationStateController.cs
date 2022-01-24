@@ -8,7 +8,7 @@ public class PlatformerAnimationStateController : MonoBehaviour
     Animator animator;
     int isWalkingHash;
     int isRunningHash;
-    int isDancingHash;
+    int isJumpingHash;
     PlatformerPlayerController player;
 
 
@@ -18,7 +18,7 @@ public class PlatformerAnimationStateController : MonoBehaviour
         animator = GetComponent<Animator>();
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
-        isDancingHash = Animator.StringToHash("isDancing");
+        isJumpingHash = Animator.StringToHash("isJumping");
 
         player = FindObjectOfType<PlatformerPlayerController>();
     }
@@ -43,6 +43,9 @@ public class PlatformerAnimationStateController : MonoBehaviour
             bool runningPressed = Input.GetKey("left shift");
             bool isRunning = animator.GetBool(isRunningHash);
 
+            bool jumpingPressed = Input.GetKeyDown("space");
+            bool isJumping = animator.GetBool(isJumpingHash);
+
             if (!isWalking && walkingPressed)
             {
                 animator.SetBool(isWalkingHash, true); // start walk anim
@@ -61,13 +64,13 @@ public class PlatformerAnimationStateController : MonoBehaviour
                 animator.SetBool(isRunningHash, false); // stop run anim
             }
 
-            if (Input.GetKey("t"))
+            if ((player.isGrounded) && !isJumping && jumpingPressed)
             {
-                animator.SetBool(isDancingHash, true); // start dance anim
+                animator.SetBool(isJumpingHash, true);
             }
-            else
+            else if ((player.isGrounded || !player.isGrounded) && (isJumping) && (!jumpingPressed))
             {
-                animator.SetBool(isDancingHash, false); // stop dance anim
+                animator.SetBool(isJumpingHash, false);
             }
         }
     }

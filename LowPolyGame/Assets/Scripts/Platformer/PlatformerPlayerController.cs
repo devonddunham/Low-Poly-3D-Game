@@ -11,11 +11,15 @@ public class PlatformerPlayerController : MonoBehaviour
     [Range(1, 10)] public float jumpSpeed;
     float moveVelocity;
 
+
+    // other
     GameObject player;
-    bool isGrounded = true;
+    [HideInInspector] public bool isGrounded = true;
     Rigidbody rb;
     [HideInInspector] public bool canMove = false;
 
+
+    // movement
     [HideInInspector] public bool isMovingLeft;
     [HideInInspector] public bool isMovingRight;
 
