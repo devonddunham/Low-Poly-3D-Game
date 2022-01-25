@@ -182,6 +182,7 @@ public class RaceCarMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "ExtraLife")
         {
+            Debug.Log("UROMO");
             health++;
             healthText.text = "Lives: " + health;
         }
