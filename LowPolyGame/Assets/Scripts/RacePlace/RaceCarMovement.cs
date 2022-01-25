@@ -66,8 +66,8 @@ public class RaceCarMovement : MonoBehaviour
         {
             ScoreManager();
             canMove = false;
-            Destroy(scoreText.transform.parent.gameObject);
-            Destroy(healthText.transform.parent.gameObject);
+            scoreText.transform.parent.gameObject.SetActive(false);
+            healthText.transform.parent.gameObject.SetActive(false);
             gameOverPanel.SetActive(true);
         }
 
@@ -78,6 +78,9 @@ public class RaceCarMovement : MonoBehaviour
 
         if (!canMove)
             return;
+
+        scoreText.transform.parent.gameObject.SetActive(true);
+        healthText.transform.parent.gameObject.SetActive(true);
 
         if (carPosition == 2)
         {
@@ -173,5 +176,14 @@ public class RaceCarMovement : MonoBehaviour
         gameOverHighScore.text = "High Score: " + highscore;
 
         PlayerPrefs.SetInt("highscore", highscore);
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "ExtraLife")
+        {
+            health++;
+            healthText.text = "Lives: " + health;
+        }
     }
 }

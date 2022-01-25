@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstacleTimer : MonoBehaviour
+public class PowerSpawnerRace : MonoBehaviour
 {
     ItemSpawner itemSpawner;
     public Transform spawnTrigger;
@@ -17,10 +17,9 @@ public class ObstacleTimer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            itemSpawner.SpawnObstacle();
-            transform.position = spawnTrigger.transform.position;
+            Debug.Log("MOMMy");
+            itemSpawner.SpawnPowerUp();
+
         }
     }
-
-
 }

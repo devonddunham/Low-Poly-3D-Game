@@ -6,10 +6,13 @@ public class ItemSpawner : MonoBehaviour
 {
 
     public int spawnItem;
-
+    public int spawnPower;
     public GameObject[] obstacles;
+    public GameObject[] powers;
     [HideInInspector] public GameObject currentOb;
+    [HideInInspector] public GameObject currentPow;
     public Transform spawnPoint;
+    public Transform powerSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +24,7 @@ public class ItemSpawner : MonoBehaviour
     {
         currentOb = obstacles[spawnItem];
 
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            SpawnObstacle();
-        }
+        currentPow = powers[spawnPower];
 
     }
 
@@ -32,5 +32,12 @@ public class ItemSpawner : MonoBehaviour
     {
         spawnItem = Random.Range(0, obstacles.Length);
         Instantiate(currentOb, spawnPoint.transform.position, Quaternion.identity);
+    }
+
+    public void SpawnPowerUp()
+    {
+        Debug.Log("Power Ur Mom");
+        spawnItem = Random.Range(0, obstacles.Length);
+        Instantiate(currentPow, powerSpawn.transform.position, Quaternion.identity);
     }
 }
