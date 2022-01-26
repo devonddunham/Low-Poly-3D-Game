@@ -8,6 +8,7 @@ TagManager:
   - Speed
   - Extra Life
   - Coin
+  - Missile
   layers:
   - Default
   - TransparentFX

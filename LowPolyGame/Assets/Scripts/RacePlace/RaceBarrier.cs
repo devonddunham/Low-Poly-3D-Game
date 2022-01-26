@@ -21,5 +21,11 @@ public class RaceBarrier : MonoBehaviour
             Instantiate(explosion, explosionPos.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+        if(other.gameObject.tag == "Missile")
+        {
+            Instantiate(explosion, explosionPos.transform.position, Quaternion.identity);
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

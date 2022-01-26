@@ -31,6 +31,13 @@ public class RaceCarMovement : MonoBehaviour
     public Text gameOverHighScore;
 
     public bool canMove = true;
+    public bool canShoot = false;
+
+    public GameObject missile;
+    public int amountMissles;
+    public Transform firePoint;
+    public GameObject launcher;
+
     public void Start()
     {
         score = 0;
@@ -45,7 +52,7 @@ public class RaceCarMovement : MonoBehaviour
 
         GameOver();
         Movement();
-
+        
 
     }
 
@@ -79,7 +86,7 @@ public class RaceCarMovement : MonoBehaviour
         if (!canMove)
             return;
 
-
+        Shooting();
         if (moveSpeed > 500)
         {
             moveSpeed = 500;
@@ -88,6 +95,8 @@ public class RaceCarMovement : MonoBehaviour
         if (health > 10)
         {
             health = 10;
+            score += 100;
+            scoreText.text = "Score: " + score;
             healthText.text = "Lives: " + health;
         }
 
@@ -191,5 +200,27 @@ public class RaceCarMovement : MonoBehaviour
         PlayerPrefs.SetInt("highscore", highscore);
     }
 
+    public void Shooting()
+    {
+        if(amountMissles <= 0)
+        {
+            canShoot = false;
+            launcher.SetActive(false);
+        }
 
+        if(canShoot == true)
+        {
+            if(amountMissles > 0)
+            {
+                launcher.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    amountMissles -= 1;
+                    Instantiate(missile, firePoint.transform.position, missile.transform.rotation);
+                }
+            }
+           
+        }
+    }
 }
