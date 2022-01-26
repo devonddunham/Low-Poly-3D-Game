@@ -17,9 +17,9 @@ public class PowerSpawnerRace : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("MOMMy");
-            itemSpawner.SpawnPowerUp();
 
+            itemSpawner.SpawnPowerUp();
+            transform.position = spawnTrigger.transform.position;
         }
     }
 }

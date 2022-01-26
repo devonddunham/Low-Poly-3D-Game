@@ -178,13 +178,5 @@ public class RaceCarMovement : MonoBehaviour
         PlayerPrefs.SetInt("highscore", highscore);
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "ExtraLife")
-        {
-            Debug.Log("UROMO");
-            health++;
-            healthText.text = "Lives: " + health;
-        }
-    }
+   
 }

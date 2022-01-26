@@ -36,8 +36,10 @@ public class ItemSpawner : MonoBehaviour
 
     public void SpawnPowerUp()
     {
+
         Debug.Log("Power Ur Mom");
-        spawnItem = Random.Range(0, obstacles.Length);
+        spawnPower = Random.Range(0, powers.Length);
+        Debug.Log(spawnPower);
         Instantiate(currentPow, powerSpawn.transform.position, Quaternion.identity);
     }
 }
