@@ -1580,7 +1580,7 @@ GameObject:
   - component: {fileID: -5093377382303834078}
   m_Layer: 0
   m_Name: BarrierFour
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

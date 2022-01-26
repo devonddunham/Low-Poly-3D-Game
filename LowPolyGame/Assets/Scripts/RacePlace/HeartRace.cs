@@ -20,5 +20,10 @@ public class HeartRace : MonoBehaviour
             raceCarMovement.healthText.text = "Lives: " + raceCarMovement.health;
             Destroy(gameObject);
         }
+
+        else if (other.gameObject.tag == "Death" || other.gameObject.tag == "Coin")
+        {
+            Destroy(gameObject);
+        }
     }
 }

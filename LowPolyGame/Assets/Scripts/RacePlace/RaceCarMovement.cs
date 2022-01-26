@@ -79,6 +79,19 @@ public class RaceCarMovement : MonoBehaviour
         if (!canMove)
             return;
 
+
+        if (moveSpeed > 500)
+        {
+            moveSpeed = 500;
+        }
+
+        if (health > 10)
+        {
+            health = 10;
+            healthText.text = "Lives: " + health;
+        }
+
+
         scoreText.transform.parent.gameObject.SetActive(true);
         healthText.transform.parent.gameObject.SetActive(true);
 
@@ -178,5 +191,5 @@ public class RaceCarMovement : MonoBehaviour
         PlayerPrefs.SetInt("highscore", highscore);
     }
 
-   
+
 }

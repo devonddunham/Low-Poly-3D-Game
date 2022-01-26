@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: -5367907770245673920}
   m_Layer: 0
   m_Name: BarrierSix
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

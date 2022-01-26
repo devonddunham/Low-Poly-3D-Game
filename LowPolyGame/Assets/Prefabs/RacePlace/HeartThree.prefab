@@ -68,7 +68,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3781787847313903622, guid: ce14519fb6aecf3429c68ebd8c3f0c56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.7
+      value: 15.17
       objectReference: {fileID: 0}
     - target: {fileID: 3781787847313903622, guid: ce14519fb6aecf3429c68ebd8c3f0c56, type: 3}
       propertyPath: m_LocalPosition.y
@@ -108,7 +108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3781787847314328614, guid: ce14519fb6aecf3429c68ebd8c3f0c56, type: 3}
       propertyPath: m_Name
-      value: PoweUpHeart
+      value: PowerUpHeart
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce14519fb6aecf3429c68ebd8c3f0c56, type: 3}
