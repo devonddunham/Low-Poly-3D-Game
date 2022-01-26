@@ -1,476 +1,159 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16151 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+C:\Users\Connor Daland\Desktop\Unity\2021.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
+C:/Users/Connor Daland/Documents/LowPoly/Low-Poly-3D-Game/LowPolyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58206
-Successfully changed project path to: D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
-D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
+50752
+Successfully changed project path to: C:/Users/Connor Daland/Documents/LowPoly/Low-Poly-3D-Game/LowPolyGame
+C:/Users/Connor Daland/Documents/LowPoly/Low-Poly-3D-Game/LowPolyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 169.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Connor Daland/Desktop/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Connor Daland/Documents/LowPoly/Low-Poly-3D-Game/LowPolyGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon R7 450 (ID=0x682b)
-    Vendor:   ATI
-    VRAM:     4076 MB
-    Driver:   24.20.11020.3002
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+    Driver:   27.21.14.6231
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Mono path[0] = 'C:/Users/Connor Daland/Desktop/Unity/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Connor Daland/Desktop/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Connor Daland/Desktop/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002206 seconds.
+Register platform support module: C:/Users/Connor Daland/Desktop/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002540 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 138.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
+- Completed reload, in  2.405 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001328 seconds.
+Registered in 0.003801 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  1.399 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.1 MB.
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1892.
-Total: 1.560900 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.308000 ms  DeleteObjects: 0.082100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Hub
-  artifactKey: Guid(110a4496088fcb24ba953a6fb63bd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hub using Guid(110a4496088fcb24ba953a6fb63bd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e57fb1f243fab8263151ab8c565ed0') in 0.027443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.939702 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681a7ad0df43286ef7694012520d9de8') in 0.166709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8f6dc1ef4915608f499463100e67ad') in 0.035679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd27694df056170753e2169dac92f847') in 0.036568 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
-System memory in use after: 67.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1899.
-Total: 2.318400 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.090600 ms  DeleteObjects: 0.010900 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1868.
+Total: 1.866200 ms (FindLiveObjects: 0.093300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.658200 ms  DeleteObjects: 0.078300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.592953 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d56cfefe3794615fea8618e79623822') in 0.041932 seconds 
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(e7e6e3cc3d067f04ea0bf60b61bef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efedcce664244142f41f494b9ec05312') in 0.041079 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.009913 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f112ade76a63b1f8ce333d1f011912') in 0.042660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.852372 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af03acf449a6f3958186645da66fa6') in 0.043037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.893986 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348bfd2ef631195bae845f829335c491') in 0.075636 seconds 
+  Time since last request: 31.057437 seconds.
+  path: Assets/Scenes/RacePlace.unity
+  artifactKey: Guid(6b3b7fb3cab66dd4ab1c673d0a34507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RacePlace.unity using Guid(6b3b7fb3cab66dd4ab1c673d0a34507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f3c33cb783b56470d00d2c4337349a') in 0.011810 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001481 seconds.
+Registered in 0.002231 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.930 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.7 MB.
-System memory in use after: 94.8 MB.
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 1.494000 ms (FindLiveObjects: 0.110600 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.332800 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.912805 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30329044d3fd7e7084dffc9fe7dce77') in 0.081350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.731424 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19c8d722a86e4f1f2dc845464c504c8') in 0.048894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.151381 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979e41468a2455e9e24d3662fcf3c15f') in 0.048648 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001558 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1906.
-Total: 1.935800 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.713300 ms  DeleteObjects: 0.016700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1871.
+Total: 2.023600 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.054900 ms MarkObjects: 1.826400 ms  DeleteObjects: 0.016500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 466.044279 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aaeaf3325621d9704c2cbc97694723') in 0.080599 seconds 
+  Time since last request: 424.423532 seconds.
+  path: Assets/Scripts/RacePlace
+  artifactKey: Guid(8c09d5d7e9d51e54bb7e5e1bc422deda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RacePlace using Guid(8c09d5d7e9d51e54bb7e5e1bc422deda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c083e9600002698fca2fc0f6df61368') in 0.015453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.965106 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b4d852ff879ceeb01a764eba819ff9') in 0.042441 seconds 
+  Time since last request: 6.148990 seconds.
+  path: Assets/Scripts/RacePlace/PowerSpawnerRace.cs
+  artifactKey: Guid(4d36bb75d1c23444f95f6881413453b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RacePlace/PowerSpawnerRace.cs using Guid(4d36bb75d1c23444f95f6881413453b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c94ce4f204e313e985d2190931d840') in 0.020463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 386.460352 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c661fd67825a1e1205c0fc2f67b35') in 0.041895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.293187 seconds.
-  path: Assets/Scripts/RacePlace/TrackPlacement.cs
-  artifactKey: Guid(7bf1fb538ccc7014fad6e48b7fc1373e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RacePlace/TrackPlacement.cs using Guid(7bf1fb538ccc7014fad6e48b7fc1373e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7deeaaf9ca55cee4a82453bf729f60b') in 0.029117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.681923 seconds.
-  path: Assets/Scripts/RacePlace/RaceCoin.cs
-  artifactKey: Guid(f1a3635e084a2ae438b21679c369de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RacePlace/RaceCoin.cs using Guid(f1a3635e084a2ae438b21679c369de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091fcfdcc1527ac9dcc572999feafd75') in 0.019295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.553202 seconds.
-  path: Assets/Scripts/RacePlace/TrackDestroy.cs
-  artifactKey: Guid(336377640398afb43bca7a42dc8fd491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RacePlace/TrackDestroy.cs using Guid(336377640398afb43bca7a42dc8fd491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab22b59394bfae37317189bb9db8c11') in 0.020428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.796671 seconds.
-  path: Assets/Scripts/RacePlace/RaceBarrier.cs
-  artifactKey: Guid(320a97dea31f8404ca7c181b3c4e5501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RacePlace/RaceBarrier.cs using Guid(320a97dea31f8404ca7c181b3c4e5501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729c5407f3c15e35aed7d63e404a75d3') in 0.019149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.114728 seconds.
+  Time since last request: 16.396735 seconds.
   path: Assets/Scripts/RacePlace/ItemSpawner.cs
   artifactKey: Guid(0c67dcb736e9f7741b93c1fd2f1c2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RacePlace/ItemSpawner.cs using Guid(0c67dcb736e9f7741b93c1fd2f1c2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d69a0227110c1fd208263682048326') in 0.020026 seconds 
+Start importing Assets/Scripts/RacePlace/ItemSpawner.cs using Guid(0c67dcb736e9f7741b93c1fd2f1c2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c97053dc63b0bc4e8ce2d3ac8cfcf6e') in 0.009281 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001586 seconds.
+Registered in 0.003097 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1910.
-Total: 1.845400 ms (FindLiveObjects: 0.113100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.672000 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001385 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1913.
-Total: 1.510900 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.342500 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 263.727069 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946c5281f5397be97359e7242f5c28b8') in 0.085270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.741199 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538416ef5870b7908060128e4027a25e') in 0.041254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.006578 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f6559e5c335e01ee92ea48095482db') in 0.041761 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001616 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 1.496800 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.334400 ms  DeleteObjects: 0.010000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.573409 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f500a05a7a15680401bd36b83e8ddb1c') in 0.080738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.287806 seconds.
-  path: Assets/Prefabs/RacePlace/HeartTwo.prefab
-  artifactKey: Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartTwo.prefab using Guid(af69ded41cad9a24e85fa7c8f5ac8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf8346c1b3999e4f441d9e4c93d817e') in 0.041931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.258701 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c3d4afd8d8c0c04ba6bf5fbe06f449') in 0.041258 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001427 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 95.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 2.019800 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.821100 ms  DeleteObjects: 0.018400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001362 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1924.
-Total: 1.589700 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.414200 ms  DeleteObjects: 0.011100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001481 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1927.
-Total: 1.569900 ms (FindLiveObjects: 0.113500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.401900 ms  DeleteObjects: 0.010700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 810.138701 seconds.
-  path: Assets/Prefabs/RacePlace/HeartThree.prefab
-  artifactKey: Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartThree.prefab using Guid(f3c6cf1935bc8df4eac2b7ee14bb6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b1ce891d6ec9ecc0c9ff4e52da50e7') in 0.081066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.683232 seconds.
-  path: Assets/Prefabs/RacePlace/HeartOne.prefab
-  artifactKey: Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RacePlace/HeartOne.prefab using Guid(505fabc641c5c514abe64fc9ebf56efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e11fa9dff5f3059b0acbb4d58f2208c') in 0.043512 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 1.514600 ms (FindLiveObjects: 0.118300 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.340000 ms  DeleteObjects: 0.010700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001382 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 1.958200 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.755400 ms  DeleteObjects: 0.015800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 1.438600 ms (FindLiveObjects: 0.093500 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.284600 ms  DeleteObjects: 0.025300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001319 seconds.
+Registered in 0.001811 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  0.993 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 1.555300 ms (FindLiveObjects: 0.116000 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.383900 ms  DeleteObjects: 0.010100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 3.333400 ms (FindLiveObjects: 0.155300 ms CreateObjectMapping: 0.065800 ms MarkObjects: 3.087100 ms  DeleteObjects: 0.023000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
