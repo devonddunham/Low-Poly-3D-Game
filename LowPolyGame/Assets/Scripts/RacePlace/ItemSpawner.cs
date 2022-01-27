@@ -37,7 +37,7 @@ public class ItemSpawner : MonoBehaviour
     public void SpawnPowerUp()
     {
 
-        Debug.Log("Power Ur Mom");
+
         spawnPower = Random.Range(0, powers.Length);
         Debug.Log(spawnPower);
         Instantiate(currentPow, powerSpawn.transform.position, currentPow.transform.rotation);

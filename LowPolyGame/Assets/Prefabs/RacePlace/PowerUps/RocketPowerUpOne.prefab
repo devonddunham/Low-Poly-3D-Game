@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 9127990329887781439}
   - component: {fileID: 6292243538242300301}
   - component: {fileID: -3981869581885474096}
+  - component: {fileID: 266511508988844659}
   m_Layer: 0
   m_Name: RocketPowerUpOne
   m_TagString: Untagged
@@ -252,3 +253,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40727d0e9a3f13f439255fb0a4fe1c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &266511508988844659
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5235381399648600478}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

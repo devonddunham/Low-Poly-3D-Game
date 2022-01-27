@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 8017595573517531698}
   - component: {fileID: 7291008019287696416}
   - component: {fileID: -937230480028376614}
+  - component: {fileID: 8281223811515828010}
   m_Layer: 0
   m_Name: RocketPowerUpTwo
   m_TagString: Untagged
@@ -252,3 +253,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40727d0e9a3f13f439255fb0a4fe1c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &8281223811515828010
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435315952058288531}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

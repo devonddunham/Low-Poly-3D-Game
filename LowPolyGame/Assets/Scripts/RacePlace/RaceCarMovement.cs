@@ -37,10 +37,12 @@ public class RaceCarMovement : MonoBehaviour
     public int amountMissles;
     public Transform firePoint;
     public GameObject launcher;
+    public Text misText;
 
     public void Start()
     {
         score = 0;
+        misText.transform.parent.gameObject.SetActive(false);
         highscore = PlayerPrefs.GetInt("highscore", highscore);
         healthText.text = "Lives: " + health;
         gameOverPanel.SetActive(false);
@@ -52,7 +54,7 @@ public class RaceCarMovement : MonoBehaviour
 
         GameOver();
         Movement();
-        
+
 
     }
 
@@ -202,15 +204,24 @@ public class RaceCarMovement : MonoBehaviour
 
     public void Shooting()
     {
-        if(amountMissles <= 0)
+        if (amountMissles <= 0)
         {
             canShoot = false;
+            misText.transform.parent.gameObject.SetActive(false);
             launcher.SetActive(false);
         }
 
-        if(canShoot == true)
+        if (amountMissles > 10)
         {
-            if(amountMissles > 0)
+            amountMissles = 10;
+            score += 100;
+        }
+
+        if (canShoot == true)
+        {
+            misText.transform.parent.gameObject.SetActive(true);
+            misText.text = "Missile " + amountMissles;
+            if (amountMissles > 0)
             {
                 launcher.SetActive(true);
 
@@ -220,7 +231,7 @@ public class RaceCarMovement : MonoBehaviour
                     Instantiate(missile, firePoint.transform.position, missile.transform.rotation);
                 }
             }
-           
+
         }
     }
 }
