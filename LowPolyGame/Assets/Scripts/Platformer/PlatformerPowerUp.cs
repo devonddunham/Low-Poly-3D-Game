@@ -20,6 +20,7 @@ public class PlatformerPowerUp : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Power Up Collided With " + other.name);
         if (other.gameObject.tag == "Player")
         {
             if (gameObject.tag == "Extra Life")
@@ -31,6 +32,7 @@ public class PlatformerPowerUp : MonoBehaviour
             else if (gameObject.tag == "Speed")
             {
                 player.speed = player.speed + 1;
+                Debug.Log(player.speed);
                 Destroy(gameObject);
             }
         }
