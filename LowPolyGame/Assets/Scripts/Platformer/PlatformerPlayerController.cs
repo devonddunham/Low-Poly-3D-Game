@@ -31,7 +31,7 @@ public class PlatformerPlayerController : MonoBehaviour
     [Header("Respawn")]
     public Transform respawnPoint;
 
-    Distance distance;
+    [HideInInspector] public Distance distance;
 
     void Start()
     {
@@ -59,24 +59,6 @@ public class PlatformerPlayerController : MonoBehaviour
     {
         //Check if Grounded
         isGrounded = true;
-
-        if (!livesText)
-            return;
-        if (other.gameObject.tag == "Death")
-        {
-            lives--;
-            livesText.text = "Lives: " + lives;
-            // subtracting distance when you die to something
-            if (distance.timer <= 5)
-            {
-                distance.timer = 0;
-            }
-            else
-            {
-                distance.timer = distance.timer - 5f;
-            }
-            player.transform.position = respawnPoint.transform.position;
-        }
     }
 
 
