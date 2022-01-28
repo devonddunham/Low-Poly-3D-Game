@@ -18,22 +18,8 @@ public class PlayerJapan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Throw();
+
     }
 
-    public void Throw()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (canShoot)
-            {
-                Debug.Log("Shoot");
-                Rigidbody shurikenClone = (Rigidbody)Instantiate(shuriken, firePoint.transform.position, transform.rotation);
 
-                shuriken.velocity = transform.forward * shurikenSpeed;
-            }
-
-
-        }
-    }
 }
