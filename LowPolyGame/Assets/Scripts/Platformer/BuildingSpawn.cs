@@ -15,8 +15,6 @@ public class BuildingSpawn : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        float randomHeight = Random.Range(-10, 10);
-        Transform playerPosition = new Vector3(player.transform.position.x, player.transform.position.y - +randomHeight, player.tranform.z);
         if (other.gameObject.tag == "Player")
         {
             GameObject randomBuildingSet = buildings[Random.Range(0, buildings.Length)];
