@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 2169969540176168986}
   - component: {fileID: 8849270016407491904}
   - component: {fileID: 4408118608589199779}
+  - component: {fileID: 2075196954}
   m_Layer: 0
   m_Name: PowerUpSpeed
   m_TagString: Speed
@@ -219,7 +220,7 @@ Transform:
   m_GameObject: {fileID: 5990586842989654040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 3560318569882730479}
   - {fileID: 2413579007491795038}
@@ -236,11 +237,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5990586842989654040}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.5845242, y: 2.9472911, z: 1}
-  m_Center: {x: 0.9336079, y: 3.1952057, z: 0}
+  m_Size: {x: 0, y: 2.9472911, z: 15.829573}
+  m_Center: {x: -0.06, y: 3.1952057, z: -1.9810791}
 --- !u!54 &4408118608589199779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -255,8 +256,20 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &2075196954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5990586842989654040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd791d5076a6fb34198bad38157330b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7671986400517859312
 GameObject:
   m_ObjectHideFlags: 0

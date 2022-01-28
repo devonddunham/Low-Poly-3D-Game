@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3781787847313903622}
   - component: {fileID: 3781787847317295142}
   - component: {fileID: 3781787847316329190}
-  - component: {fileID: 1195870804477106837}
   - component: {fileID: 5459112263502631319}
+  - component: {fileID: 1381366354}
+  - component: {fileID: 1381366352}
   m_Layer: 0
   m_Name: PoweUpHeart
   m_TagString: Extra Life
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3781787847314328614}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -84,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1195870804477106837
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3781787847314328614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.22635828
-  m_Center: {x: 0.000000014901161, y: -0.035235032, z: 0}
 --- !u!54 &5459112263502631319
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -113,3 +101,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &1381366354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781787847314328614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45271656, y: 0.37871334, z: 0}
+  m_Center: {x: 0.000000014901161, y: -0.035235032, z: 0}
+--- !u!114 &1381366352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781787847314328614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd791d5076a6fb34198bad38157330b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

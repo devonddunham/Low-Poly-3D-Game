@@ -1720,8 +1720,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpSpeed: 4
+  jumpSpeed: 7
   isGrounded: 1
+  canMove: 0
+  isMovingLeft: 0
+  isMovingRight: 0
+  lives: 3
+  livesText: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  distance: {fileID: 0}
 --- !u!114 &4194836281198190082
 MonoBehaviour:
   m_ObjectHideFlags: 0

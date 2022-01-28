@@ -15,10 +15,15 @@ public class BuildingSpawn : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        float randomHeight = Random.Range(-0.1f, 0.1f);
+        Vector3 playerPos = player.transform.position;
+        Vector3 spawnPos = playerPos * randomHeight;
+
         if (other.gameObject.tag == "Player")
         {
             GameObject randomBuildingSet = buildings[Random.Range(0, buildings.Length)];
-            Instantiate(randomBuildingSet, initPos.transform.position, Quaternion.identity);
+            Instantiate(randomBuildingSet, initPos.transform.position + spawnPos, Quaternion.identity);
         }
+        Destroy(gameObject);
     }
 }

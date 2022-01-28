@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlatformerPlayerController : MonoBehaviour
@@ -47,11 +46,6 @@ public class PlatformerPlayerController : MonoBehaviour
         {
             Jump();
             Movement();
-        }
-
-        if (lives <= 0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
