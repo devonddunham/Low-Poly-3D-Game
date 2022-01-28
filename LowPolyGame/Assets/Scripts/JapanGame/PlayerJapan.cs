@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerJapan : MonoBehaviour
 {
     public bool canShoot = true;
-    public GameObject shuriken;
+    public Rigidbody shuriken;
     public Transform firePoint;
-    public Transform camera;
+    public int shurikenSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,10 +28,12 @@ public class PlayerJapan : MonoBehaviour
             if (canShoot)
             {
                 Debug.Log("Shoot");
-                Instantiate(shuriken, firePoint.transform.position, camera.transform.rotation);
+                Rigidbody shurikenClone = (Rigidbody)Instantiate(shuriken, firePoint.transform.position, transform.rotation);
+
+                shuriken.velocity = transform.forward * shurikenSpeed;
             }
 
-            
+
         }
     }
 }

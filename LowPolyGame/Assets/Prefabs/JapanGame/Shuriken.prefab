@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7735617426980606418}
   - component: {fileID: 6020239146271737479}
   - component: {fileID: 6410671163720913720}
-  - component: {fileID: 760906056}
   - component: {fileID: 760906055}
-  - component: {fileID: 760906060}
+  - component: {fileID: 979375072034110139}
+  - component: {fileID: 505320053681748639}
   m_Layer: 0
   m_Name: Shuriken
   m_TagString: Untagged
@@ -85,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &760906056
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3656534354405785996}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8431221205903345509, guid: 4c6def91613f3964b9ad192eaaf5f6d1, type: 3}
 --- !u!95 &760906055
 Animator:
   serializedVersion: 3
@@ -118,18 +104,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &760906060
-MonoBehaviour:
+--- !u!54 &979375072034110139
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3656534354405785996}
+  serializedVersion: 2
+  m_Mass: 0.01
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &505320053681748639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656534354405785996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995f2489769e1fb46b44a6935ed34cfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  aimPoint: {fileID: 0}
-  firePoint: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 5.6419525, y: 5.6400876, z: 0.46244293}
+  m_Center: {x: -0.0018525115, y: -0.016612606, z: -0.039545674}
