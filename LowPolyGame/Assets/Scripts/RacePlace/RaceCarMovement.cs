@@ -213,8 +213,9 @@ public class RaceCarMovement : MonoBehaviour
 
         if (amountMissles > 10)
         {
-            amountMissles = 10;
             score += 100;
+            amountMissles = 10;
+        
         }
 
         if (canShoot == true)
