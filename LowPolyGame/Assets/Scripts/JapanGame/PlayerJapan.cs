@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerJapan : MonoBehaviour
 {
 
@@ -9,6 +9,10 @@ public class PlayerJapan : MonoBehaviour
     public GameObject handShuriken;
     public float windWaitTime;
     Projectile projectileScript;
+
+    public int score;
+
+    public Text scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +32,12 @@ public class PlayerJapan : MonoBehaviour
         {
             StartCoroutine(WindSoundTimer());
         }
+    }
+
+    public void ScoreUp()
+    {
+        score += 10;
+        scoreText.text = "Score: " + score;
     }
 
     public IEnumerator HandShuriken()
