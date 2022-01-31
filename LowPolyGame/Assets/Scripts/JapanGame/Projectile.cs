@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
                 //  rot = new Vector3(rot.x, rot.y, rot.z);
                 // Quaternion orientation = Quaternion.Euler(rot);
                 StartCoroutine(playerScript.HandShuriken());
-                GameObject shuriken = Instantiate(projectile, firePoint.transform.position, rotation: transform.rotation);
+                GameObject shuriken = Instantiate(projectile, transform.position, rotation: transform.rotation);
                 shuriken.GetComponentInChildren<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
             }
         }

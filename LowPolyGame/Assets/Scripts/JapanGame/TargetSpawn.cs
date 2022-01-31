@@ -15,7 +15,7 @@ public class TargetSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        StartCoroutine(SpawnCount());
         randTime = Random.Range(5, 15);
     }
 
@@ -24,6 +24,7 @@ public class TargetSpawn : MonoBehaviour
     {
         currentOb = targets[spawnItem];
         currentPos = spawnPos[spawnInt];
+
     }
 
     public void SpawnTarget()
@@ -37,8 +38,9 @@ public class TargetSpawn : MonoBehaviour
     public IEnumerator SpawnCount()
     {
         Debug.Log("You");
-        randTime = Random.Range(5, 15);
+        randTime = Random.Range(1, 3);
         yield return new WaitForSeconds(randTime);
         SpawnTarget();
+        StartCoroutine(SpawnCount());
     }
 }
