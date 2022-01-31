@@ -1690,9 +1690,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4015a1ae1f70884d870f95823ddb368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  highscore: 0
   duringGameScreen: {fileID: 36805528}
   gameOverScreen: {fileID: 1625881712}
   highScoreTxt: {fileID: 1421624332}
+  scoreTxt: {fileID: 1433610448}
 --- !u!1001 &1751616055934584057
 PrefabInstance:
   m_ObjectHideFlags: 0
