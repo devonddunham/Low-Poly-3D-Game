@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlatformerPlayerController : MonoBehaviour
 {
-    [Header("Movement")]
+    [Header("--- PLAYER MOVEMENT ---")]
     [Range(1, 10)] public float speed;
     [Range(1, 10)] public float jumpSpeed;
     float moveVelocity;
@@ -23,7 +23,7 @@ public class PlatformerPlayerController : MonoBehaviour
     [HideInInspector] public bool isMovingRight;
 
 
-    [Header("Lives")]
+    [Header("--- LIVES ---")]
     public int lives = 3;
     public Text livesText;
 

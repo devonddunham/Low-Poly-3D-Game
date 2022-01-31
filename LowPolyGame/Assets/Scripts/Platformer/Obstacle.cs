@@ -14,10 +14,8 @@ public class Obstacle : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-
-        //  if (!player)
-        //    return;
+        if (!player)
+            return;
         if (other.gameObject.tag == "Player")
         {
             player.lives--;

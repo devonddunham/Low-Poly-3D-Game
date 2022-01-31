@@ -10,12 +10,15 @@ public class PlatformerGameOver : MonoBehaviour
     private Distance distance;
 
     public static int score;
-    public static float highscore;
+    public static float highscore = 0;
 
     [Header("UI Elements")]
     public GameObject duringGameScreen;
     public GameObject gameOverScreen;
     public Text highScoreTxt;
+    public Text scoreTxt;
+
+    int roundedHighScore;
 
     // Start is called before the first frame update
     void Start()
@@ -24,12 +27,14 @@ public class PlatformerGameOver : MonoBehaviour
         distance = FindObjectOfType<Distance>();
         duringGameScreen.SetActive(true);
         gameOverScreen.SetActive(false);
+        PlayerPrefs.GetInt("platformer_highscore", roundedHighScore);
     }
 
     // Update is called once per frame
     void Update()
     {
         CheckLives();
+        CheckScore();
     }
 
     public void CheckLives()
@@ -50,29 +55,38 @@ public class PlatformerGameOver : MonoBehaviour
         {
             duringGameScreen.SetActive(true);
             gameOverScreen.SetActive(false);
-            player.canMove = true;
         }
     }
 
     public void CheckScore()
     {
+
+        scoreTxt.text = "Score: " + distance.timer.ToString("f0");
+
+        // buggy
         if (distance.timer > highscore)
         {
-            highscore = distance.timer;
-            highScoreTxt.text = "" + score;
+            if (player.lives <= 0)
+            {
+                highscore = distance.timer;
+                roundedHighScore = Mathf.RoundToInt(highscore);
+                PlayerPrefs.SetInt("platformer_highscore", roundedHighScore);
+                highScoreTxt.text = "High Score: " + roundedHighScore;
+                scoreTxt.text = "Score: " + distance.timer.ToString("f0");
+                highScoreTxt.text = "High Score: " + roundedHighScore;
+                PlayerPrefs.SetInt("platformer_highscore", roundedHighScore);
+                Destroy(distance);
+            }
+        }
+        else
+        {
+            if (player.lives <= 0)
+            {
+                highScoreTxt.text = "High Score: " + roundedHighScore;
+                Destroy(distance);
+            }
         }
 
-        // int roundedHighScore = Mathf.Round(highscore);
-        // PlayerPrefs.SetInt("highscore", roundedHighScore);
-    }
 
-    public static void AddPoints(int pointsToAdd)
-    {
-        score += pointsToAdd;
-    }
-
-    public static void Reset()
-    {
-        score = 0;
     }
 }

@@ -34,7 +34,7 @@ public class PlatformerPowerUp : MonoBehaviour
             }
             else if (gameObject.tag == "Speed")
             {
-                player.speed = player.speed + 1;
+                player.speed += 1;
                 distance.multiplier += 0.2f;
                 Debug.Log("Player Speed: " + player.speed);
                 Debug.Log("Multiplier: " + distance.multiplier);

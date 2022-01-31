@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d5a32fca2be9d438936b384ce67992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initPos: {fileID: 4164636084928944261}
+  instantiatePos: {fileID: 4164636084928944261}
   buildings:
   - {fileID: 1751616056604711421, guid: 24db0c5f58d15fe48ab3f47a8063ebc4, type: 3}
   - {fileID: 8971469818821038983}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuildingSpawn : MonoBehaviour
 {
-    public Transform initPos;
+    public Transform instantiatePos;
     public GameObject[] buildings;
     PlatformerPlayerController player;
 
@@ -22,7 +22,7 @@ public class BuildingSpawn : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             GameObject randomBuildingSet = buildings[Random.Range(0, buildings.Length)];
-            Instantiate(randomBuildingSet, initPos.transform.position + spawnPos, Quaternion.identity);
+            Instantiate(randomBuildingSet, instantiatePos.transform.position + spawnPos, Quaternion.identity);
         }
         Destroy(gameObject);
     }

@@ -51,11 +51,8 @@ public class RaceCarMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         GameOver();
         Movement();
-
-
     }
 
     public void AddScore()
