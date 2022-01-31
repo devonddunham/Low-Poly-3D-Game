@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TargetJapan : MonoBehaviour
 {
+    //Boolean
+    public bool canDestroy;
 
     //Transforms
     GameObject destroyPos;
@@ -17,7 +19,7 @@ public class TargetJapan : MonoBehaviour
     public Renderer topRight;
     public Renderer bottomLeft;
     public Renderer bottomRight;
-   
+
     //Center
     public Renderer center;
 
@@ -30,12 +32,12 @@ public class TargetJapan : MonoBehaviour
         destroyPos = GameObject.Find("DestroyPosition");
         spawnScript = FindObjectOfType<TargetSpawn>();
         playerScript = FindObjectOfType<PlayerJapan>();
-        
+
     }
 
     void OnCollisionEnter(Collision other)
     {
-       
+
 
         if (other.gameObject.tag == "Shuriken")
         {
@@ -45,18 +47,22 @@ public class TargetJapan : MonoBehaviour
             bottomLeft.material = blueColor;
             bottomRight.material = blueColor;
             center.material = blueColor;
-            StartCoroutine(spawnScript.SpawnCount());
-            StartCoroutine(HoldDestroy());
+            Destroy(this.gameObject, 3);
+
         }
+
+
+        if (other.gameObject.tag == "Target")
+        {
+
+        }
+
     }
 
-    public IEnumerator HoldDestroy()
-    {
-        yield return new WaitForSeconds(3);
-        this.gameObject.transform.position = destroyPos.transform.position;
-        yield return new WaitForSeconds(30);
-        Destroy(this.gameObject);
-    }
-   
-   
+
+
+
+
+
+
 }
