@@ -8,15 +8,28 @@ public class Projectile : MonoBehaviour
     public float launchSpeed = 300f;
     public float heightSpeed = 50f;
     public Transform firePoint;
+    public bool canThrow = true;
+    PlayerJapan playerScript;
+
+
+    public void Start()
+    {
+        playerScript = FindObjectOfType<PlayerJapan>();
+    }
+
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (canThrow)
         {
-            // Vector3 rot = transform.rotation.eulerAngles;
-            //  rot = new Vector3(rot.x, rot.y, rot.z);
-            // Quaternion orientation = Quaternion.Euler(rot);
-            GameObject shuriken = Instantiate(projectile, firePoint.transform.position, rotation: transform.rotation);
-            shuriken.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
+            if (Input.GetButtonDown("Fire1"))
+            {
+                // Vector3 rot = transform.rotation.eulerAngles;
+                //  rot = new Vector3(rot.x, rot.y, rot.z);
+                // Quaternion orientation = Quaternion.Euler(rot);
+                StartCoroutine(playerScript.HandShuriken());
+                GameObject shuriken = Instantiate(projectile, firePoint.transform.position, rotation: transform.rotation);
+                shuriken.GetComponentInChildren<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
+            }
         }
     }
 }

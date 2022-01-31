@@ -9,6 +9,8 @@ TagManager:
   - Extra Life
   - Coin
   - Missile
+  - Shuriken
+  - Target
   layers:
   - Default
   - TransparentFX
