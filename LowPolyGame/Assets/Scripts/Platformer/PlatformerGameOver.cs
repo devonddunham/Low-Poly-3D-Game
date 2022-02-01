@@ -15,8 +15,6 @@ public class PlatformerGameOver : MonoBehaviour
     public GameObject gameOverScreen;
     public Text highScoreTxt;
     public Text scoreTxt;
-    int roundedHighScore;
-    int roundedScore;
 
     // Start is called before the first frame update
     void Start()
