@@ -18,6 +18,7 @@ public class Obstacle : MonoBehaviour
             return;
         if (other.gameObject.tag == "Player")
         {
+
             player.lives--;
             player.livesText.text = "Lives: " + player.lives;
             // subtracting distance when you die to something
@@ -30,6 +31,7 @@ public class Obstacle : MonoBehaviour
                 player.distance.timer = player.distance.timer - 5f;
             }
             player.transform.position = player.respawnPoint.transform.position;
+            player.ResetCamera();
         }
     }
 }

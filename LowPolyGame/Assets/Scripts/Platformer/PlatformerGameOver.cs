@@ -39,6 +39,7 @@ public class PlatformerGameOver : MonoBehaviour
     {
         if (player.lives <= 0)
         {
+            player.StopCamera();
             duringGameScreen.SetActive(false);
             gameOverScreen.SetActive(true);
             player.canMove = false;

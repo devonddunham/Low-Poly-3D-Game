@@ -9,7 +9,7 @@ public class PlatformerPlayerController : MonoBehaviour
     [Range(1, 10)] public float speed;
     [Range(1, 10)] public float jumpSpeed;
     float moveVelocity;
-
+    public GameObject moveObj;
 
     // other
     GameObject player;
@@ -88,5 +88,16 @@ public class PlatformerPlayerController : MonoBehaviour
         }
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y);
+    }
+
+    public void ResetCamera()
+    {
+        moveObj.transform.position = this.transform.position;
+    }
+
+    public void StopCamera()
+    {
+        moveObj.transform.position = this.transform.position;
+        moveObj.SetActive(false);
     }
 }

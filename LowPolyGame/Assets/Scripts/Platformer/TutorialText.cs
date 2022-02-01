@@ -7,12 +7,14 @@ public class TutorialText : MonoBehaviour
     private GameObject tutorialText;
     PlatformerPlayerController player;
     Animator anim;
+    PlatformerCameraController cameraController;
 
     // Start is called before the first frame update
     void Start()
     {
         tutorialText = GameObject.Find("Tutorial Text Slideshow");
         player = FindObjectOfType<PlatformerPlayerController>();
+        cameraController = FindObjectOfType<PlatformerCameraController>();
         anim = GetComponent<Animator>();
     }
 
@@ -26,6 +28,7 @@ public class TutorialText : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
+            cameraController.isCameraMoving = true;
             if (tutorialText.activeInHierarchy)
             {
                 tutorialText.SetActive(false);
