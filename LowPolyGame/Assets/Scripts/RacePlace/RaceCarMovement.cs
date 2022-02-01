@@ -212,7 +212,7 @@ public class RaceCarMovement : MonoBehaviour
         {
             score += 100;
             amountMissles = 10;
-        
+
         }
 
         if (canShoot == true)
