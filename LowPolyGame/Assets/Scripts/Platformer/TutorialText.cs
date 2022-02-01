@@ -44,6 +44,7 @@ public class TutorialText : MonoBehaviour
         if (this.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
             player.canMove = true;
+            cameraController.isCameraMoving = true;
         }
     }
 }
