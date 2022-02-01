@@ -8,7 +8,7 @@ public class MovingTarget : MonoBehaviour
     [SerializeField]
     Transform[] wayPoints;
     int currentWayPoint = 0;
-    public GameObject position;
+
     Rigidbody rb;
     [SerializeField]
     float moveSpeed = 5;
@@ -16,7 +16,7 @@ public class MovingTarget : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Instantiate(position, transform.position, transform.rotation);
+
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class MovingTarget : MonoBehaviour
             currentWayPoint += 1;
             currentWayPoint = currentWayPoint % wayPoints.Length;
         }
-        Vector3 _dir = -(wayPoints[currentWayPoint].position - transform.position).normalized;
+        Vector3 _dir = (wayPoints[currentWayPoint].position - transform.position).normalized;
         rb.MovePosition(transform.position + _dir * moveSpeed * Time.deltaTime);
     }
 }
