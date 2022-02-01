@@ -9,6 +9,7 @@ public class Distance : MonoBehaviour
     PlatformerPlayerController player;
     public float timer;
     public float multiplier;
+    [HideInInspector] public bool timerPlaying = true;
 
     // Start is called before the first frame update
     void Start()
@@ -28,15 +29,18 @@ public class Distance : MonoBehaviour
         if (!player)
             return;
 
-        if (player.isMovingRight)
+        if (timerPlaying)
         {
-            timer += Time.deltaTime * multiplier; // making it go slower
-            disanceText.text = "Distance - " + (Mathf.Round(timer * 100) * 0.01f).ToString("f2") + " FT"; // two decimal places
-        }
-        else if (player.isMovingLeft)
-        {
-            timer -= Time.deltaTime * multiplier; // making it go slower
-            disanceText.text = "Distance - " + (Mathf.Round(timer * 100) * 0.01f).ToString("f2") + " FT"; // two decimal places
+            if (player.isMovingRight)
+            {
+                timer += Time.deltaTime * multiplier; // making it go slower
+                disanceText.text = "Distance - " + (Mathf.Round(timer * 100) * 0.01f).ToString("f2") + " FT"; // two decimal places
+            }
+            else if (player.isMovingLeft)
+            {
+                timer -= Time.deltaTime * multiplier; // making it go slower
+                disanceText.text = "Distance - " + (Mathf.Round(timer * 100) * 0.01f).ToString("f2") + " FT"; // two decimal places
+            }
         }
     }
 }

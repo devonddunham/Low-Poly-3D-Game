@@ -8,7 +8,7 @@ public class PlatformerGameOver : MonoBehaviour
 {
     private PlatformerPlayerController player;
     private Distance distance;
-    public float highscore = 0;
+    public static float highscore;
 
     [Header("UI Elements")]
     public GameObject duringGameScreen;
@@ -25,7 +25,7 @@ public class PlatformerGameOver : MonoBehaviour
         distance = FindObjectOfType<Distance>();
         duringGameScreen.SetActive(true);
         gameOverScreen.SetActive(false);
-        PlayerPrefs.GetInt("platformer_highscore", roundedHighScore);
+        highScoreTxt.text = "High Score: " + PlayerPrefs.GetFloat("platformer_highscore", 0).ToString("f2");
     }
 
     // Update is called once per frame
@@ -61,16 +61,14 @@ public class PlatformerGameOver : MonoBehaviour
         // buggy
         if (player.lives <= 0)
         {
-            if (distance.timer > highscore)
+            scoreTxt.text = "Score: " + distance.timer.ToString("f2");
+            if (distance.timer > PlayerPrefs.GetFloat("platformer_highscore", 0))
             {
                 highscore = distance.timer;
-                roundedScore = Mathf.RoundToInt(distance.timer);
-                scoreTxt.text = "Score: " + roundedScore;
-                roundedHighScore = Mathf.RoundToInt(highscore);
-                highScoreTxt.text = "High Score: " + roundedHighScore;
+                highScoreTxt.text = "High Score: " + highscore.ToString("f2");
+                PlayerPrefs.SetFloat("platformer_highscore", highscore);
             }
-            Destroy(distance);
-            PlayerPrefs.SetInt("platformer_highscore", roundedHighScore);
+            distance.timerPlaying = false;
         }
     }
 }
