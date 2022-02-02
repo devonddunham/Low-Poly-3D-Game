@@ -27,7 +27,7 @@ public class PlatformerPlayerController : MonoBehaviour
     public int lives = 3;
     public Text livesText;
 
-    [Header("Respawn")]
+    [Header("--- RESPAWN ---")]
     public Transform respawnPoint;
 
     [HideInInspector] public Distance distance;
@@ -40,7 +40,7 @@ public class PlatformerPlayerController : MonoBehaviour
         livesText.text = "Lives: " + lives;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (canMove)
         {
@@ -78,13 +78,11 @@ public class PlatformerPlayerController : MonoBehaviour
         {
             moveVelocity = -speed;
             transform.eulerAngles = new Vector3(0, -90, 0); // Flipped
-            // transform.localScale = new Vector2(1f, 1f);
         }
         if (isMovingRight)
         {
             transform.eulerAngles = new Vector3(0, 90, 0); // Flipped
             moveVelocity = speed;
-            // transform.localScale = new Vector2(-1f, 1f);
         }
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y);
@@ -99,5 +97,13 @@ public class PlatformerPlayerController : MonoBehaviour
     {
         moveObj.transform.position = this.transform.position;
         moveObj.SetActive(false);
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Moving Collider")  // or if(gameObject.CompareTag("YourWallTag"))
+        {
+            rb.velocity = Vector3.zero;
+        }
     }
 }
