@@ -569,6 +569,8 @@ GameObject:
   - component: {fileID: 6511206902127160976}
   - component: {fileID: 6511206902127160975}
   - component: {fileID: 6511206902127160977}
+  - component: {fileID: 294029915772402132}
+  - component: {fileID: 5822805104437044742}
   m_Layer: 0
   m_Name: StillTarget
   m_TagString: Target
@@ -606,7 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f126fed3e7a9c499d26391661c0472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyPos: {fileID: 0}
+  canPoint: 1
   redColor: {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
   blueColor: {fileID: 2100000, guid: fd6fc35b57276914f8927f653783b6a4, type: 2}
   topLeft: {fileID: 6511206901972428171}
@@ -643,6 +645,32 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &294029915772402132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511206902127160973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4af1ea27cccf47648b43995b5683062e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canDestroy: 0
+--- !u!65 &5822805104437044742
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511206902127160973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06748456, y: 3.7274225, z: 4.841799}
+  m_Center: {x: -0.014929399, y: 1.0146407, z: -0.082629204}
 --- !u!1 &6511206902127360912
 GameObject:
   m_ObjectHideFlags: 0

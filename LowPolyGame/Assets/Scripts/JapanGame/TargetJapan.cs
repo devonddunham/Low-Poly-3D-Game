@@ -5,7 +5,7 @@ using UnityEngine;
 public class TargetJapan : MonoBehaviour
 {
     //Boolean
-    public bool canDestroy = false;
+
     public bool canPoint = true;
     //Transforms
     GameObject destroyPos;
@@ -29,7 +29,7 @@ public class TargetJapan : MonoBehaviour
 
     public void Start()
     {
-        StartCoroutine(CanDestroy());
+
         destroyPos = GameObject.Find("DestroyPosition");
         spawnScript = FindObjectOfType<TargetSpawn>();
         playerScript = FindObjectOfType<PlayerJapan>();
@@ -60,22 +60,10 @@ public class TargetJapan : MonoBehaviour
         }
 
 
-        if (other.gameObject.tag == "Target")
-        {
-            if (canDestroy)
-            {
-                Destroy(other.gameObject);
-            }
-        }
 
     }
 
-    public IEnumerator CanDestroy()
-    {
-        canDestroy = false;
-        yield return new WaitForSeconds(.5f);
-        canDestroy = true;
-    }
+
 
 
 
