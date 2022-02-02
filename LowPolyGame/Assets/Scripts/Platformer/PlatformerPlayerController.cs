@@ -7,6 +7,7 @@ public class PlatformerPlayerController : MonoBehaviour
 {
     [Header("--- PLAYER MOVEMENT ---")]
     [Range(1, 10)] public float speed;
+    [Range(1, 10)] public float speedAfterCollision;
     [Range(1, 10)] public float jumpSpeed;
     float moveVelocity;
     public GameObject moveObj;
@@ -101,9 +102,16 @@ public class PlatformerPlayerController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Moving Collider")  // or if(gameObject.CompareTag("YourWallTag"))
+        if (collision.gameObject.name == "Moving Collider")
         {
-            rb.velocity = Vector3.zero;
+            StartCoroutine(RightWall());
         }
+    }
+
+    public IEnumerator RightWall()
+    {
+        speed = 0;
+        yield return new WaitForSeconds(1f);
+        speed = speedAfterCollision;
     }
 }
