@@ -27,15 +27,11 @@ public class HubAnimationController : MonoBehaviour
             {
                 menuAnim.SetActive(true);
                 isPlaying = true;
-                // cams[0].SetActive(true);
-                // cams[1].SetActive(false);
             }
             else
             {
                 menuAnim.SetActive(false);
                 isPlaying = false;
-                // cams[0].SetActive(false);
-                // cams[1].SetActive(true);
             }
         }
 
@@ -43,8 +39,6 @@ public class HubAnimationController : MonoBehaviour
         {
             menuAnim.SetActive(false);
             isPlaying = false;
-            // cams[0].SetActive(false);
-            // cams[1].SetActive(true);
         }
     }
 }
