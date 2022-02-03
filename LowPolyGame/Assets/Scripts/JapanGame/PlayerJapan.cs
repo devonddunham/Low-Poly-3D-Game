@@ -62,9 +62,10 @@ public class PlayerJapan : MonoBehaviour
 
     public IEnumerator Freeze()
     {
-
+        projectileScript.canThrow = false;
         fpsController.canMove = false;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.5f);
         fpsController.canMove = true;
+        projectileScript.canThrow = true;
     }
 }

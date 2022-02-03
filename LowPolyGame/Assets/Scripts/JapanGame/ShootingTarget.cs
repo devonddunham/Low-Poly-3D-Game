@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootingTarget : MonoBehaviour
 {
-
+    public bool canShoot = true;
     GameObject player;
     public float speed = 1.0f;
     public GameObject bullet;
@@ -36,13 +36,23 @@ public class ShootingTarget : MonoBehaviour
 
     public IEnumerator ShootBullet()
     {
+        if (canShoot)
+        {
+            yield return new WaitForSeconds(3f);
 
-        yield return new WaitForSeconds(4f);
+            GameObject targetBullet = Instantiate(bullet, firePoint.transform.position, rotation: transform.rotation);
+            targetBullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
 
-        GameObject targetBullet = Instantiate(bullet, firePoint.transform.position, rotation: transform.rotation);
-        targetBullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
-
-        StartCoroutine(ShootBullet());
+            StartCoroutine(ShootBullet());
+        }
     }
 
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Shuriken")
+        {
+            canShoot = false;
+        }
+    }
 }
