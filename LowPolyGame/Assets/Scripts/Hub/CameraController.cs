@@ -9,7 +9,9 @@ public class CameraController : MonoBehaviour
     public GameObject cameraCenter;
 
     [Header("--- FLOATS ---")]
+    public float xOffset;
     public float yOffset;
+    public float zOffset;
     public float sensitivity;
     public float scrollSensitivity;
     public float scrollDamping;
@@ -25,7 +27,8 @@ public class CameraController : MonoBehaviour
     private RaycastHit camHit;
     private Vector3 camDist;
 
-    void Start(){
+    void Start()
+    {
         camDist = cam.transform.localPosition;
         zoomDistance = zoomDefault;
         camDist.z = zoomDistance;
@@ -33,15 +36,19 @@ public class CameraController : MonoBehaviour
         Cursor.visible = false;
     }
 
-    void Update(){
+    void Update()
+    {
         FollowAndRotate();
+        Zooming();
+        AntiCameraClipping();
     }
 
-    void FollowAndRotate(){
+    void FollowAndRotate()
+    {
 
-        var xCamPos = player.transform.position.x;
+        var xCamPos = player.transform.position.x + xOffset;
         var yCamPos = player.transform.position.y + yOffset;
-        var zCamPos = player.transform.position.z;
+        var zCamPos = player.transform.position.z + zOffset;
         cameraCenter.transform.position = new Vector3(xCamPos, yCamPos, zCamPos);
 
         var mouseY = Input.GetAxis("Mouse Y");
@@ -51,15 +58,46 @@ public class CameraController : MonoBehaviour
         cameraCenter.transform.rotation = rotation;
     }
 
-    void Zooming(){
-        var isScrolling = Input.GetAxis("Mouse SrollWheel");
-        if(isScrolling != 0f){
+    void Zooming()
+    {
+        var isScrolling = Input.GetAxis("Mouse ScrollWheel");
+        if (isScrolling != 0f)
+        {
             var scrollAmount = isScrolling * scrollSensitivity;
-            scrollAmount += zoomDistance * 0.3f;
+            scrollAmount *= zoomDistance * 0.3f;
             zoomDistance += -scrollAmount;
             zoomDistance = Mathf.Clamp(zoomDistance, zoomMin, zoomMax);
         }
+
+        if (camDist.z != -zoomDistance)
+        {
+            camDist.z = Mathf.Lerp(camDist.z, -zoomDistance, Time.deltaTime * scrollDamping);
+        }
+
+        cam.transform.localPosition = camDist;
     }
+
+    void AntiCameraClipping()
+    {
+        GameObject obj = new GameObject();
+        obj.transform.SetParent(cam.transform.parent);
+        obj.transform.localPosition = new Vector3(cam.transform.localPosition.x, cam.transform.localPosition.y, cam.transform.localPosition.z - collisionSensitivity);
+
+        if (Physics.Linecast(cameraCenter.transform.position, obj.transform.position, out camHit))
+        {
+            cam.transform.position = camHit.point;
+            var localPosition = new Vector3(cam.transform.localPosition.x, cam.transform.localPosition.y, cam.transform.localPosition.z + collisionSensitivity);
+            cam.transform.localPosition = localPosition;
+        }
+        Destroy(obj);
+
+        if (cam.transform.localPosition.z > -1f)
+        {
+            cam.transform.localPosition = new Vector3(cam.transform.localPosition.x, cam.transform.localPosition.y, -1f);
+        }
+
+    }
+
 
 
 
