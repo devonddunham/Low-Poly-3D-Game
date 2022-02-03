@@ -9,6 +9,9 @@ public class ShootingTarget : MonoBehaviour
     public float speed = 1.0f;
     public GameObject bullet;
     public Transform firePoint;
+
+    public float launchSpeed = 300f;
+    public float heightSpeed = 50f;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,8 +37,11 @@ public class ShootingTarget : MonoBehaviour
     public IEnumerator ShootBullet()
     {
 
-        yield return new WaitForSeconds(2f);
-        Instantiate(bullet, firePoint.position, firePoint.rotation);
+        yield return new WaitForSeconds(4f);
+
+        GameObject targetBullet = Instantiate(bullet, firePoint.transform.position, rotation: transform.rotation);
+        targetBullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
+
         StartCoroutine(ShootBullet());
     }
 

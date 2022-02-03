@@ -3996,9 +3996,10 @@ GameObject:
   - component: {fileID: 1064439932}
   - component: {fileID: 1064439935}
   - component: {fileID: 1064439934}
+  - component: {fileID: 1064439933}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4017,6 +4018,20 @@ Transform:
   m_Father: {fileID: 600896944}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1064439933
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064439931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1064439934
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5158,6 +5173,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7231249584077957083, guid: d70c62ecaaaa5ca43bfc3cd2927e0b31, type: 3}
   m_PrefabInstance: {fileID: 7231249585260251598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1318469095 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1906999406748615187, guid: d895cc2c9ffc5f2438069e75846a31b8, type: 3}
+  m_PrefabInstance: {fileID: 4544780457194782813}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1348734676 stripped
 Transform:
@@ -8301,6 +8321,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 165992529, guid: d895cc2c9ffc5f2438069e75846a31b8, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 1318469095}
+    - target: {fileID: 165992529, guid: d895cc2c9ffc5f2438069e75846a31b8, type: 3}
+      propertyPath: launchSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3213151040220437344, guid: d895cc2c9ffc5f2438069e75846a31b8, type: 3}
       propertyPath: m_Name
       value: ShootingTarget

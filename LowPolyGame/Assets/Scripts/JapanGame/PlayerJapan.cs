@@ -9,13 +9,15 @@ public class PlayerJapan : MonoBehaviour
     public GameObject handShuriken;
     public float windWaitTime;
     Projectile projectileScript;
-
+    FPSController fpsController;
+    Projectile projectile;
     public int score;
 
     public Text scoreText;
     // Start is called before the first frame update
     void Start()
     {
+        fpsController = FindObjectOfType<FPSController>();
         projectileScript = FindObjectOfType<Projectile>();
         windRush.SetActive(false);
     }
@@ -55,6 +57,14 @@ public class PlayerJapan : MonoBehaviour
         windRush.gameObject.SetActive(true);
         yield return new WaitForSeconds(windWaitTime);
         windRush.gameObject.SetActive(false);
-     
+
+    }
+
+    public IEnumerator Freeze()
+    {
+
+        fpsController.canMove = false;
+        yield return new WaitForSeconds(2);
+        fpsController.canMove = true;
     }
 }
