@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RacePlace.unity
+    guid: 6b3b7fb3cab66dd4ab1c673d0a34507d
+  - enabled: 1
+    path: Assets/Scenes/Platformer.unity
+    guid: 9d9625e7ca2d7524abd5be841bc4d2e1
+  - enabled: 1
+    path: Assets/Scenes/JapanGame.unity
+    guid: 6145858059d974249b372556175384b1
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: ffce3859ad670e646a2da48944d76e0d
   m_configObjects: {}

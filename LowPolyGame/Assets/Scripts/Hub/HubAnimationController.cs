@@ -5,7 +5,7 @@ using UnityEngine;
 public class HubAnimationController : MonoBehaviour
 {
     public GameObject menuAnim;
-    // public GameObject[] cams;
+    public GameObject playerCam;
 
     // [HideInInspector]
     [HideInInspector] public bool isPlaying;
@@ -15,6 +15,7 @@ public class HubAnimationController : MonoBehaviour
     void Start()
     {
         menuAnim.SetActive(true);
+        playerCam.SetActive(false);
         isPlaying = true;
         anim = GetComponent<Animator>();
     }
@@ -30,6 +31,7 @@ public class HubAnimationController : MonoBehaviour
             }
             else
             {
+                playerCam.SetActive(true);
                 menuAnim.SetActive(false);
                 isPlaying = false;
             }
@@ -37,6 +39,7 @@ public class HubAnimationController : MonoBehaviour
 
         if (this.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
+            playerCam.SetActive(true);
             menuAnim.SetActive(false);
             isPlaying = false;
         }
