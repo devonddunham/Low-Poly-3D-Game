@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class AnimationStateController : MonoBehaviour
 {
-
+    public static AnimationStateController instance;
     Animator animator;
     int isWalkingHash;
     int isRunningHash;
     int isDancingHash;
     HubAnimationController hubAnimationController;
 
+    public bool runningPressed;
+    public bool walkingPressed;
+    public bool isWalking;
+    public bool isRunning;
+
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         animator = GetComponent<Animator>();
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
@@ -34,11 +40,11 @@ public class AnimationStateController : MonoBehaviour
         if (hubAnimationController.isPlaying)
             return;
 
-        bool walkingPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d");
-        bool isWalking = animator.GetBool(isWalkingHash);
+        walkingPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d");
+        isWalking = animator.GetBool(isWalkingHash);
 
-        bool runningPressed = Input.GetKey("left shift");
-        bool isRunning = animator.GetBool(isRunningHash);
+        runningPressed = Input.GetKey("left shift");
+        isRunning = animator.GetBool(isRunningHash);
 
         if (!isWalking && walkingPressed)
         {

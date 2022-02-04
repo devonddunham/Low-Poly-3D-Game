@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 44848a8917c029049b3296b611ad077f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Speed Racing
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 925c5831b9c8dd24d9b1cac4d4dad857, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

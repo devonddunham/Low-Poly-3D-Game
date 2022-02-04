@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HubAnimationController : MonoBehaviour
 {
+    public static HubAnimationController instance;
     public GameObject menuAnim;
     public GameObject playerCam;
 
@@ -14,6 +15,7 @@ public class HubAnimationController : MonoBehaviour
 
     void Start()
     {
+        instance = this;
         menuAnim.SetActive(true);
         playerCam.SetActive(false);
         isPlaying = true;

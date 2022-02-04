@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
-
+    public static ThirdPersonMovement instance;
     public CharacterController controller;
     public Transform cam;
     public float speed = 6f;
@@ -16,6 +16,7 @@ public class ThirdPersonMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         hubAnimationController = FindObjectOfType<HubAnimationController>();
     }
 
