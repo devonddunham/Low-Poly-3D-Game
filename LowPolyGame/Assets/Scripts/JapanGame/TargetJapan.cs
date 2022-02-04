@@ -26,10 +26,11 @@ public class TargetJapan : MonoBehaviour
     //References
     PlayerJapan playerScript;
     TargetSpawn spawnScript;
+    DestroySpawnedTargets destroyScript;
 
     public void Start()
     {
-
+        destroyScript = GetComponentInParent<DestroySpawnedTargets>();
         destroyPos = GameObject.Find("DestroyPosition");
         spawnScript = FindObjectOfType<TargetSpawn>();
         playerScript = FindObjectOfType<PlayerJapan>();
@@ -42,6 +43,7 @@ public class TargetJapan : MonoBehaviour
 
         if (other.gameObject.tag == "Shuriken")
         {
+            destroyScript.destroyObj = true;
             if (canPoint)
             {
                 playerScript.ScoreUp();

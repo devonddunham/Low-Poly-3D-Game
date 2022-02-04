@@ -5,10 +5,10 @@ using UnityEngine;
 public class TargetBullet : MonoBehaviour
 {
     PlayerJapan player;
-   
+
     void Start()
     {
-       
+
         player = FindObjectOfType<PlayerJapan>();
     }
 
@@ -18,13 +18,11 @@ public class TargetBullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-           
-            StartCoroutine(player.Freeze());
-          
+
+            player.freeze = true;
+            Debug.Log("Devon");
+            Destroy(gameObject);
         }
-        else
-        {
-            Destroy(this.gameObject);
-        }
+
     }
 }

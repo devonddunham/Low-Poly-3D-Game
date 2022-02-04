@@ -36,9 +36,10 @@ public class ShootingTarget : MonoBehaviour
 
     public IEnumerator ShootBullet()
     {
+        yield return new WaitForSeconds(5f);
         if (canShoot)
         {
-            yield return new WaitForSeconds(3f);
+
 
             GameObject targetBullet = Instantiate(bullet, firePoint.transform.position, rotation: transform.rotation);
             targetBullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
@@ -54,5 +55,6 @@ public class ShootingTarget : MonoBehaviour
         {
             canShoot = false;
         }
+
     }
 }

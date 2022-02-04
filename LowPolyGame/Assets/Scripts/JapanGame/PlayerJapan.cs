@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerJapan : MonoBehaviour
 {
-
+    public bool freeze = false;
     public GameObject windRush;
     public GameObject handShuriken;
     public float windWaitTime;
     Projectile projectileScript;
+
+
     FPSController fpsController;
     Projectile projectile;
     public int score;
@@ -26,6 +28,11 @@ public class PlayerJapan : MonoBehaviour
     void Update()
     {
         WindRush();
+
+        if (freeze == true)
+        {
+            StartCoroutine(Freeze());
+        }
     }
 
     public void WindRush()
@@ -64,7 +71,8 @@ public class PlayerJapan : MonoBehaviour
     {
         projectileScript.canThrow = false;
         fpsController.canMove = false;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
+        freeze = false;
         fpsController.canMove = true;
         projectileScript.canThrow = true;
     }

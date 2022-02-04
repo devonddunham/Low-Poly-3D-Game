@@ -6,6 +6,7 @@ public class DestroySpawnedTargets : MonoBehaviour
 {
 
     public bool canDestroy = false;
+    public bool destroyObj = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,20 +16,26 @@ public class DestroySpawnedTargets : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (destroyObj == true)
+        {
+            Destroy(this.gameObject, 3f);
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Target")
         {
-            Debug.Log("nerd");
+
             if (canDestroy)
             {
-                Debug.Log("Destroy");
+
                 Destroy(other.gameObject);
             }
         }
+
+
+
     }
 
     public IEnumerator CanDestroy()
