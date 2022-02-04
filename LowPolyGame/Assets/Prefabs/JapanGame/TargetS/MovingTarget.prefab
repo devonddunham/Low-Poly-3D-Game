@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7127237109960529967}
   m_Layer: 0
   m_Name: MovingTarget
-  m_TagString: Target
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canDestroy: 0
+  destroyObj: 0
 --- !u!1 &565126077435208575
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 6511206902127160973, guid: 1499b2214defa29489b585b31c52d5a2, type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     - target: {fileID: 6511206902127160974, guid: 1499b2214defa29489b585b31c52d5a2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -232,7 +237,8 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5822805104437044742, guid: 1499b2214defa29489b585b31c52d5a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1499b2214defa29489b585b31c52d5a2, type: 3}
 --- !u!1 &6132590787508037011 stripped
 GameObject:

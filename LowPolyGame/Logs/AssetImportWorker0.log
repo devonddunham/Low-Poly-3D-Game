@@ -11,19 +11,19 @@ C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49611
-Successfully changed project path to: C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
-C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
+63013
+Successfully changed project path to: D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame/Assets
+[Subsystems] Discovering subsystems at path D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,304 +35,1013 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001815 seconds.
+Registered in 0.002395 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 72.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
+- Completed reload, in  1.293 seconds
 Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 1.565600 ms (FindLiveObjects: 0.119000 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.314500 ms  DeleteObjects: 0.082500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/JapanGame/TargetBullet.cs
+  artifactKey: Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JapanGame/TargetBullet.cs using Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622b2cf4b2a28c5a41d77f4304d81a5') in 0.049299 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 1.502200 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.327400 ms  DeleteObjects: 0.010700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.219384 seconds.
+  path: Assets/Scripts/JapanGame/TargetBullet.cs
+  artifactKey: Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JapanGame/TargetBullet.cs using Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209a83142ea134fe9a97e7217e7af9b5') in 0.023083 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 1.525300 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.345800 ms  DeleteObjects: 0.010800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.536300 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.356100 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 1.536600 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.352600 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 1.842200 ms (FindLiveObjects: 0.170000 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.587300 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 867.163753 seconds.
+  path: Assets/Prefabs/JapanGame/TargetBullet.prefab
+  artifactKey: Guid(b042e64e01b09c54693c11ffbaa8c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetBullet.prefab using Guid(b042e64e01b09c54693c11ffbaa8c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19df21b0b687cf29d4700f1ad6b567f') in 0.115990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.230409 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a257d8d46336878191db51b84a8ff86') in 0.045922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441af821ac4a509d1944a94061587eb3') in 0.048741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c46b44b7ee99d48f0d6013ea02a2d') in 0.054922 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 1.534500 ms (FindLiveObjects: 0.124900 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.347000 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.302788 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a331ff597aa753046ffc900040d300') in 0.082366 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 1.511100 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.330700 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 1.550400 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.375100 ms  DeleteObjects: 0.010300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 466.870084 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbafb6362ffddd154cec1df4945dd47') in 0.079651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06f868a9264cd6686a5ce8ddc13a636') in 0.042996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182315654b547808121852d042b2bd35') in 0.045025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.744425 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155281264e4d02d2360084e0cf30bb9a') in 0.045589 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 2.186500 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.966300 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 1.886500 ms (FindLiveObjects: 0.125700 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.691600 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 634.295244 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7953c1bbf186ee32f12b579d89dff0') in 0.081308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.178165 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c7a59c954d14d61b0e9dfbb6ce9245') in 0.068907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.676216 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58012c75eab8b8742ba6f23cbc4d618') in 0.046384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfb48ff264967bc65fa6fe30024e5e6') in 0.039972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfab0e6ea383524ea28a1cc09e23651') in 0.042048 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.054400 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.816200 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.001427 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
+- Completed reload, in  0.787 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1888.
-Total: 1.573000 ms (FindLiveObjects: 0.122100 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.345500 ms  DeleteObjects: 0.057900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Hub/CameraController.cs
-  artifactKey: Guid(8a58a7252e3a15249ba246f67cd22b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hub/CameraController.cs using Guid(8a58a7252e3a15249ba246f67cd22b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d24a27b82ac6dbb2f3576119b83028') in 0.040544 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.9 MB.
-System memory in use after: 44.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1888.
-Total: 1.636700 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.430100 ms  DeleteObjects: 0.011900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 1.552700 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.362900 ms  DeleteObjects: 0.012200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001490 seconds.
+Registered in 0.001566 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.747 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.1 MB.
-System memory in use after: 72.3 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 1.552200 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.375200 ms  DeleteObjects: 0.014400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 1.865700 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.080100 ms MarkObjects: 1.552300 ms  DeleteObjects: 0.012000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 603.895717 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addd4e035b46b3c63f98b7a17501755c') in 0.080304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff2bc19ab0be27e84b444136d5af7ef') in 0.048657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e55df0647eeabdf5702e647a0ca562') in 0.043082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.788056 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6cd065a9a276d9992df509e71026e9') in 0.044874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa45ae4b6bc3880aa1b4a386943b6cc1') in 0.040940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b459707e19e88a0ce90b824f67b2fc15') in 0.042816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.025900 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcc490b1dfafb4de61da2a2af6a3beb') in 0.047000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9c8ee8e8cec71ec80305d8b7f371ec') in 0.041925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d33d8fa5c1aa69d47ed32b43f08830c') in 0.050807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.267822 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7503ea48b71c0c6cef6d36970a1e015') in 0.054654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7563675c219954e39bd8d965a4dcc9e0') in 0.040841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a4d9bf8ee7b299dc4e64e0f43ed8a5') in 0.047766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.463760 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba44cf42ac6e6e666d314f70cac8b8fe') in 0.053141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172aaa3051ed4c0667af43c931d7179a') in 0.040254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bef8b0b21a32621a117c6d1f43da6e') in 0.049560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.349070 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719821c3f64ba41b0f0f5c39353ad476') in 0.055269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a9fe700af0d19d04c325131d7ad1b') in 0.039809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f004dfb4aba75851439f5424d68a2373') in 0.043171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.056821 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ba8e04e7dbe4d456b228c4e089e37') in 0.043873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce997734b507e577a1a23a22806c0eac') in 0.041459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5339fa65939ef2b95d4032ca5bbe5374') in 0.042619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.196296 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9813d32e4b839943a3b6bc4368cbf86') in 0.053107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd61e34f55e6adc6b4aac6e1944be89') in 0.041869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e790e76375ea5603475f91250777afd') in 0.042666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.542641 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e830ef0b91b54029a831e7c1aa0cac') in 0.054289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87cd4177684ab8780fdafb3ae66f33f') in 0.043521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ef249522d5ced6cbe9d48ef0e1ad3d') in 0.044002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.537401 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29cff9bf2aa34eb2db5ca6cfadecb33') in 0.046114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be1ade8dd238589e4306a3cc12d6305') in 0.040061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddff4cda0ff35f61622599faa8c4d8f') in 0.043767 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001637 seconds.
+Registered in 0.001651 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 1.517200 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.343700 ms  DeleteObjects: 0.014100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 779.982912 seconds.
-  path: Assets/Scripts/SceneTransitions.cs
-  artifactKey: Guid(33c564bbd9021684f88674b78b927a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneTransitions.cs using Guid(33c564bbd9021684f88674b78b927a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a34f315c97b900cc727400620f95b7') in 0.005067 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001527 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
+- Completed reload, in  0.761 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 1.538700 ms (FindLiveObjects: 0.113800 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.369100 ms  DeleteObjects: 0.012700 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 1.579000 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.370500 ms  DeleteObjects: 0.014400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.100564 seconds.
-  path: Assets/Scripts/SceneTransitions.cs
-  artifactKey: Guid(33c564bbd9021684f88674b78b927a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneTransitions.cs using Guid(33c564bbd9021684f88674b78b927a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97bf0cc4fca0dfed04dcd46832f4521') in 0.003819 seconds 
+  Time since last request: 103.585538 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490244942629dbdb7f176ce1fb5b605d') in 0.079986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae103e7da6eb8074f6d26a18cb1271da') in 0.043268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eb76b2fc9adcdb81d38fe3458ab9dc') in 0.044021 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002490 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1933.
-Total: 1.614400 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.392600 ms  DeleteObjects: 0.048600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002959 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1936.
-Total: 1.627900 ms (FindLiveObjects: 0.122100 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.407700 ms  DeleteObjects: 0.051500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001428 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 2.023900 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.072100 ms MarkObjects: 1.690000 ms  DeleteObjects: 0.046200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002029 seconds.
+Registered in 0.001454 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
+- Completed reload, in  0.745 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1942.
-Total: 1.623900 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.392500 ms  DeleteObjects: 0.053100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 1.538900 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.347400 ms  DeleteObjects: 0.013800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 92.657987 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a22767fb3302c235d921c62220d39a3') in 0.086927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925b129398f58499d967195ea0f6ac2') in 0.043950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc7de8ac89e42340038bed65ea75be') in 0.061204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.801642 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8dffcddd61c833b136bf45646a0a61') in 0.042796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a6ab8fe1de09c07d5b8e3febcb151') in 0.041828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a591cb01a1080ebcd29e2af233dc52eb') in 0.055147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.981417 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc285565468b29bd6ff3cb634e61668') in 0.053970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e81bf35088e3ccbd7e2a56818da213') in 0.055813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cd1f762b61cbdedc51c297d9246d2e') in 0.073455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.913032 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f2fc41bb1cd61db560c2259f5e6fc2') in 0.043956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9422d2c989541cc607b9a73fbede40c2') in 0.039592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9327111a95f53e7fdc1ab902205656') in 0.044166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.141012 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c277820454c51d5b92513ac9d6c82bd') in 0.043881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5586b4e64840faf7fb3998633557a7') in 0.053426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be65e2959aca20a9c7bd9ed04d4c2b19') in 0.060077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.310102 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbb867ff73bcd78ec4f559867f1bc06') in 0.049799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d066c2c2f0b273ef0fc570099aa6c65') in 0.057583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a590127bdf25b375710e1d7666db65d') in 0.042095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.974275 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4408997fb6e787f138db0df28612d8') in 0.059056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa29e7c42d6ecbc7ddc69f03cbd2546') in 0.040410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c1d049446446f5911aa1d2f92e2f21') in 0.053942 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001626 seconds.
+Registered in 0.001470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.7 MB.
-System memory in use after: 73.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 1.966500 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.696800 ms  DeleteObjects: 0.060700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001493 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
+- Completed reload, in  0.783 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.7 MB.
-System memory in use after: 73.8 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.9 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 1.574600 ms (FindLiveObjects: 0.126300 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.349300 ms  DeleteObjects: 0.049300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 1.672100 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.481600 ms  DeleteObjects: 0.015100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 911.638376 seconds.
-  path: Assets/Prefabs/Fading Scene Transition.prefab
-  artifactKey: Guid(5440d2936b556ef47a5c589877fafcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fading Scene Transition.prefab using Guid(5440d2936b556ef47a5c589877fafcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f8d4a59c278cbb377748c011150def') in 0.035226 seconds 
+  Time since last request: 30.268345 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bbcec1db590ba16d883d3bc6a44bf4') in 0.084082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b72bb54aa993b2064def9c3991ec73') in 0.039640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c4689f0d0feb7018b6f09a7cb8aa7') in 0.044674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.952907 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986cee4e16c9a29dcf3daa65d485ab7f') in 0.046765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbee4036fa3a2b89e8428cf78185f0d') in 0.041587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626dd93b7b593539475ea9be51c86609') in 0.045254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.796141 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e3e32c362ef448852d1332aa0a6159') in 0.044417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6797b61e52aecdbd4aa47978b19b58df') in 0.041644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669b4ca187feba526fe4184136f1d85a') in 0.043764 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001543 seconds.
+Registered in 0.001558 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.742 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1444 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.7 MB.
-System memory in use after: 73.8 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 1.546600 ms (FindLiveObjects: 0.111100 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.348000 ms  DeleteObjects: 0.045200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 1.559000 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.370500 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.662085 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab
+  artifactKey: Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab using Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dd8cd868c9c3f85c027f78b437d611') in 0.093720 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 1.570900 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.381900 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.342077 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28718a98c0f64925dfe4f8d42690b908') in 0.088975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.180880 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d109ba646a7095e45e0715a5db971f') in 0.046742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 1.535600 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.346200 ms  DeleteObjects: 0.015100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001730 seconds.
+Registered in 0.001478 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.768 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1444 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.7 MB.
-System memory in use after: 73.8 MB.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.549700 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.344000 ms  DeleteObjects: 0.044700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 1.587700 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.390800 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 1.760300 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.501100 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 1.992500 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.741800 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 1.531000 ms (FindLiveObjects: 0.125700 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.349800 ms  DeleteObjects: 0.010400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

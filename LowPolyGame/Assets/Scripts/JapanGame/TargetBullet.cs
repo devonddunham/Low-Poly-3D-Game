@@ -23,6 +23,9 @@ public class TargetBullet : MonoBehaviour
             Debug.Log("Devon");
             Destroy(gameObject);
         }
-
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }
