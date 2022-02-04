@@ -7,9 +7,12 @@ public class DestroySpawnedTargets : MonoBehaviour
 
     public bool canDestroy = false;
     public bool destroyObj = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
+
         StartCoroutine(CanDestroy());
     }
 
@@ -18,7 +21,8 @@ public class DestroySpawnedTargets : MonoBehaviour
     {
         if (destroyObj == true)
         {
-            Destroy(this.gameObject, 3f);
+            Debug.Log("Aidan is cool");
+            Destroy(gameObject, 3f);
         }
     }
 
@@ -29,7 +33,7 @@ public class DestroySpawnedTargets : MonoBehaviour
 
             if (canDestroy)
             {
-
+                other.GetComponentInParent<DestroySpawnedTargets>().destroyObj = true;
                 Destroy(other.gameObject);
             }
         }

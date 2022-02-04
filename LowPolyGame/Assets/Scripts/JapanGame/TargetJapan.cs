@@ -26,7 +26,7 @@ public class TargetJapan : MonoBehaviour
     //References
     PlayerJapan playerScript;
     TargetSpawn spawnScript;
-    DestroySpawnedTargets destroyScript;
+    public DestroySpawnedTargets destroyScript;
 
     public void Start()
     {
