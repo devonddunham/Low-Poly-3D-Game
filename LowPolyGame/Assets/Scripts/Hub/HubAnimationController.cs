@@ -10,7 +10,7 @@ public class HubAnimationController : MonoBehaviour
 
     // [HideInInspector]
     [HideInInspector] public bool isPlaying;
-    Animator anim;
+    [HideInInspector] public Animator anim;
 
 
     void Start()

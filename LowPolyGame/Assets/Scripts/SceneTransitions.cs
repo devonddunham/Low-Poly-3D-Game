@@ -6,35 +6,10 @@ using UnityEngine.UI;
 public class SceneTransitions : MonoBehaviour
 {
     public RectTransform fader;
-    public GameObject entryPanel;
 
     void Start()
     {
-        entryPanel.SetActive(false);
-
-        fader.gameObject.SetActive(true);
-        LeanTween.scale(fader, new Vector3(1, 1, 1), 0);
-        LeanTween.scale(fader, Vector3.zero, 0.5f).setOnComplete(() =>
-        {
-            fader.gameObject.SetActive(false);
-        });
-    }
-
-    void Update()
-    {
-        if (!entryPanel)
-        {
-            Debug.Log("No entry panel");
-        }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            entryPanel.SetActive(true);
-            HubAnimationController.instance.isPlaying = true;
-        }
+        StartCoroutine(FadeInCo());
     }
 
     public void Restart()
@@ -44,6 +19,7 @@ public class SceneTransitions : MonoBehaviour
 
     public void OpenScene(string sceneToLoad)
     {
+        HubPanel.instance.entryPanel.SetActive(false);
         fader.gameObject.SetActive(true);
         LeanTween.scale(fader, Vector3.zero, 0f);
         LeanTween.scale(fader, new Vector3(1, 1, 1), 0.5f).setOnComplete(() =>
@@ -54,15 +30,20 @@ public class SceneTransitions : MonoBehaviour
             }
             else
             {
+                Debug.Log("Scene to load is empty on");
                 return;
             }
         });
     }
-
-    public void ClosePanel()
+    public IEnumerator FadeInCo()
     {
-        HubAnimationController.instance.isPlaying = false;
-        entryPanel.SetActive(false);
-    }
+        yield return new WaitForSeconds(0.05f);
 
+        fader.gameObject.SetActive(true);
+        LeanTween.scale(fader, new Vector3(1, 1, 1), 0);
+        LeanTween.scale(fader, Vector3.zero, 0.5f).setOnComplete(() =>
+        {
+            fader.gameObject.SetActive(false);
+        });
+    }
 }
