@@ -46,4 +46,22 @@ public class SceneTransitions : MonoBehaviour
             fader.gameObject.SetActive(false);
         });
     }
+
+    public void SkipButton()
+    {
+        HubAnimationController.instance.playerCam.SetActive(true);
+        HubAnimationController.instance.menuAnim.SetActive(false);
+        HubAnimationController.instance.isPlaying = false;
+    }
+
+    public void Quit()
+    {
+        fader.gameObject.SetActive(true);
+        LeanTween.scale(fader, Vector3.zero, 0f);
+        LeanTween.scale(fader, new Vector3(1, 1, 1), 0.5f).setOnComplete(() =>
+        {
+            Debug.Log("QUIT GAME");
+            Application.Quit();
+        });
+    }
 }
