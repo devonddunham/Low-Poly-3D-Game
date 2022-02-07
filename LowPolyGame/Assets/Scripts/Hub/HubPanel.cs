@@ -16,6 +16,7 @@ public class HubPanel : MonoBehaviour
     {
         HubAnimationController.instance.isPlaying = false;
         entryPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     void OnTriggerEnter(Collider other)
@@ -24,6 +25,7 @@ public class HubPanel : MonoBehaviour
         {
             entryPanel.SetActive(true);
             HubAnimationController.instance.isPlaying = true;
+            Time.timeScale = 0;
         }
     }
 }
