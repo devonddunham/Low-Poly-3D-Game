@@ -11,19 +11,19 @@ C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49491
-Successfully changed project path to: C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
-C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame
+56194
+Successfully changed project path to: D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
+D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 77.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/br.nx/Documents/Low-Poly-3D-Game/LowPolyGame/Assets
+[Subsystems] Discovering subsystems at path D:/MinigameGame/Low-Poly-3D-Game/LowPolyGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,119 +35,284 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001776 seconds.
+Registered in 0.002189 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 97.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.969 seconds
+- Completed reload, in  1.520 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001579 seconds.
+Registered in 0.004794 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  1.170 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.9 MB.
-System memory in use after: 79.0 MB.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2073.
-Total: 30.988100 ms (FindLiveObjects: 8.887300 ms CreateObjectMapping: 0.515000 ms MarkObjects: 21.486300 ms  DeleteObjects: 0.097400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2093.
+Total: 1.779100 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.061900 ms MarkObjects: 1.503600 ms  DeleteObjects: 0.072100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Hub/HubPanel.cs
-  artifactKey: Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hub/HubPanel.cs using Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66a3037e08e6a2acd93587d7edf4547') in 0.291764 seconds 
+  path: Assets/Scripts/JapanGame/TargetSpawn.cs
+  artifactKey: Guid(0816e8c213257804e96147b16a9547a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JapanGame/TargetSpawn.cs using Guid(0816e8c213257804e96147b16a9547a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1647af60d99db5fc0b302cd46eb72db0') in 0.099398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Scripts/JapanGame/TargetJapan.cs
+  artifactKey: Guid(b7f126fed3e7a9c499d26391661c0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JapanGame/TargetJapan.cs using Guid(b7f126fed3e7a9c499d26391661c0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb27729fd8e231706aac58ef9387d40') in 0.042735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Scripts/JapanGame/TargetBullet.cs
+  artifactKey: Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JapanGame/TargetBullet.cs using Guid(8f8a32a7b7ffc094dbfefabd01b02c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea2c91c0aa76700019b7055e1a54adf') in 0.037709 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001836 seconds.
+Registered in 0.001470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  0.780 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2076.
-Total: 1.611800 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.388700 ms  DeleteObjects: 0.014100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 1.566700 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.382400 ms  DeleteObjects: 0.011000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 42.698407 seconds.
-  path: Assets/Scripts/Hub/HubPanel.cs
-  artifactKey: Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hub/HubPanel.cs using Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4737ec968e755a8b0dae674bcc5965') in 0.006384 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001538 seconds.
+Registered in 0.001415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2099.
+Total: 1.572600 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.376400 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 1.547700 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.051700 ms MarkObjects: 1.355000 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1119.180108 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b50816f3c2ded20d40c6754861d05b6') in 0.137391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.906016 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a62f5d69f9bde1ca1ac0e0532a84ea4') in 0.051429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.023564 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab
+  artifactKey: Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab using Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df067bdf79163df53cd8e93395cf97a6') in 0.049320 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 1.956400 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.081300 ms MarkObjects: 1.653100 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.832941 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f0a12dd6ba1eee77e7fe62718099dd') in 0.086833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab
+  artifactKey: Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab using Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632a9bbafd4ec00b0ef95d41bf1b5cf3') in 0.047293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab
+  artifactKey: Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillTarget.prefab using Guid(1499b2214defa29489b585b31c52d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebf3832abe01bbc0a02b55c19c3001e') in 0.055354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ad96d1524eb585fbee8b3c2e7fd5e4') in 0.065599 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2118.
+Total: 1.599600 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.388400 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002514 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  0.812 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 1.599300 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.400100 ms  DeleteObjects: 0.014100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2121.
+Total: 1.566600 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.374700 ms  DeleteObjects: 0.010900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 32.934435 seconds.
-  path: Assets/Scripts/Hub/HubPanel.cs
-  artifactKey: Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hub/HubPanel.cs using Guid(b9e7f12bbe8851049af4ef7148addb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd558073dc3113a69c3f3c8143b849bf9') in 0.005493 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001898 seconds.
+Registered in 0.001420 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
+- Completed reload, in  0.754 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 1.935000 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.709500 ms  DeleteObjects: 0.018200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 1.575900 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.374700 ms  DeleteObjects: 0.010700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1404.603601 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab
+  artifactKey: Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/MovingTarget.prefab using Guid(872319abc01ce7e4caf57204d368b2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa50e627e0cc489bb210c695c4b6d90') in 0.102846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.950980 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab
+  artifactKey: Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/StillMainTarget.prefab using Guid(4b159ae6258690f40a061318c564faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aec7f7789b52750ff299115b8e1334') in 0.046847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.773471 seconds.
+  path: Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab
+  artifactKey: Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JapanGame/TargetS/ShootingTarget.prefab using Guid(d895cc2c9ffc5f2438069e75846a31b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7870e99fe7840a0f14a787329a64f') in 0.049667 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 1.782500 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.516600 ms  DeleteObjects: 0.016100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

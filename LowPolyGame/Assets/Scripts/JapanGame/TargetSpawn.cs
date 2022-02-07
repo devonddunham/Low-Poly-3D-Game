@@ -12,10 +12,12 @@ public class TargetSpawn : MonoBehaviour
 
     [HideInInspector] public GameObject currentOb;
 
-    public bool canSpawn = true;
+    [SerializeField]
+    private bool canSpawn = true;
     // Start is called before the first frame update
     void Start()
     {
+        spawnItem = Random.Range(0, targets.Length);
         canSpawn = true;
         StartCoroutine(SpawnCount());
         randTime = Random.Range(5, 15);
@@ -55,11 +57,18 @@ public class TargetSpawn : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        canSpawn = false;
+        if (other.gameObject.tag == "Target")
+        {
+            canSpawn = false;
+        }
+
     }
     public void OnTriggerExit(Collider other)
     {
-        canSpawn = true;
+        if (other.gameObject.tag == "Target")
+        {
+            canSpawn = true;
+        }
     }
 
 
