@@ -8,13 +8,15 @@ public class TargetSpawn : MonoBehaviour
     public int spawnItem;
     public int randTime;
     public GameObject[] targets;
-    public Transform[] spawnPos;
-    public int spawnInt;
-    public Transform currentPos;
+
+
     [HideInInspector] public GameObject currentOb;
+
+    public bool canSpawn = true;
     // Start is called before the first frame update
     void Start()
     {
+        canSpawn = true;
         StartCoroutine(SpawnCount());
         randTime = Random.Range(5, 15);
     }
@@ -23,24 +25,42 @@ public class TargetSpawn : MonoBehaviour
     void Update()
     {
         currentOb = targets[spawnItem];
-        currentPos = spawnPos[spawnInt];
+
 
     }
 
     public void SpawnTarget()
     {
 
-        spawnInt = Random.Range(0, spawnPos.Length);
         spawnItem = Random.Range(0, targets.Length);
-        Instantiate(currentOb, currentPos.position, currentPos.rotation);
+        Instantiate(currentOb, transform.position, transform.rotation);
     }
 
     public IEnumerator SpawnCount()
     {
-        Debug.Log("You");
-        randTime = Random.Range(1, 3);
+
+
+
+
+        randTime = Random.Range(5, 15);
         yield return new WaitForSeconds(randTime);
-        SpawnTarget();
+        if (canSpawn)
+        {
+            SpawnTarget();
+        }
+
         StartCoroutine(SpawnCount());
+
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        canSpawn = false;
+    }
+    public void OnTriggerExit(Collider other)
+    {
+        canSpawn = true;
+    }
+
+
 }

@@ -26,11 +26,11 @@ public class TargetJapan : MonoBehaviour
     //References
     PlayerJapan playerScript;
     TargetSpawn spawnScript;
-    public DestroySpawnedTargets destroyScript;
+
 
     public void Start()
     {
-        destroyScript = GetComponentInParent<DestroySpawnedTargets>();
+
         destroyPos = GameObject.Find("DestroyPosition");
         spawnScript = FindObjectOfType<TargetSpawn>();
         playerScript = FindObjectOfType<PlayerJapan>();
@@ -43,11 +43,12 @@ public class TargetJapan : MonoBehaviour
 
         if (other.gameObject.tag == "Shuriken")
         {
-            destroyScript.destroyObj = true;
+
             if (canPoint)
             {
                 playerScript.ScoreUp();
             }
+            StartCoroutine(MoveToPos());
 
             canPoint = false;
             topLeft.material = blueColor;
@@ -56,7 +57,8 @@ public class TargetJapan : MonoBehaviour
             bottomRight.material = blueColor;
             center.material = blueColor;
             Destroy(other.gameObject);
-            Destroy(this.gameObject, 3);
+
+            Destroy(this.gameObject, 5);
 
 
         }
@@ -65,7 +67,11 @@ public class TargetJapan : MonoBehaviour
 
     }
 
-
+    public IEnumerator MoveToPos()
+    {
+        yield return new WaitForSeconds(3f);
+        transform.position = destroyPos.transform.position;
+    }
 
 
 

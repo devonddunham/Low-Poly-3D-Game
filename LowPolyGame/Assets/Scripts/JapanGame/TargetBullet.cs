@@ -20,7 +20,7 @@ public class TargetBullet : MonoBehaviour
         {
 
             player.freeze = true;
-            Debug.Log("Devon");
+
             Destroy(gameObject);
         }
         else
