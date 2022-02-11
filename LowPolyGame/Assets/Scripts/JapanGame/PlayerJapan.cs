@@ -4,18 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerJapan : MonoBehaviour
 {
+    public static int highscore;
     public bool freeze = false;
     public GameObject windRush;
     public GameObject handShuriken;
+    public GameObject CrossHair;
     public float windWaitTime;
     Projectile projectileScript;
 
-
+    public GameObject gameOverPanel;
     FPSController fpsController;
     Projectile projectile;
     public int score;
 
     public Text scoreText;
+
+    public Text gameOverScore;
+    public Text gameOverHighScore;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,5 +81,27 @@ public class PlayerJapan : MonoBehaviour
         freeze = false;
         fpsController.canMove = true;
         projectileScript.canThrow = true;
+    }
+
+    public void GameOver()
+    {
+        ScoreManager();
+        fpsController.canMove = false;
+        scoreText.transform.parent.gameObject.SetActive(false);
+        fpsController.UnLock();
+        CrossHair.SetActive(false);
+        projectileScript.canThrow = false;
+        gameOverPanel.SetActive(true);
+    }
+
+    public void ScoreManager()
+    {
+        if (score > highscore)
+            highscore = score;
+
+        gameOverScore.text = "Score: " + score;
+        gameOverHighScore.text = "High Score: " + highscore;
+
+        PlayerPrefs.SetInt("highscore", highscore);
     }
 }
