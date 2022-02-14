@@ -4985,7 +4985,7 @@ GameObject:
   - component: {fileID: 609546074}
   - component: {fileID: 609546073}
   m_Layer: 5
-  m_Name: Skip
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5114,7 +5114,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Skip
+  m_Text: Play
 --- !u!222 &609546076
 CanvasRenderer:
   m_ObjectHideFlags: 0

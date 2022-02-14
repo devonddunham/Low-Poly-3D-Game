@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c564bbd9021684f88674b78b927a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fader: {fileID: 1098225146}
+  fader: {fileID: 0}
 --- !u!4 &98472970
 Transform:
   m_ObjectHideFlags: 0
@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 119668396}
   - component: {fileID: 119668395}
   - component: {fileID: 119668394}
+  - component: {fileID: 119668398}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -269,6 +270,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &119668398
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119668393}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 536c8f9e4a03320469c6dec4b7096e45, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &272845475
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,11 +805,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5440d2936b556ef47a5c589877fafcf0, type: 3}
---- !u!224 &1098225146 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6664231316697677778, guid: 5440d2936b556ef47a5c589877fafcf0, type: 3}
-  m_PrefabInstance: {fileID: 1098225145}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1227451238
 GameObject:
   m_ObjectHideFlags: 0

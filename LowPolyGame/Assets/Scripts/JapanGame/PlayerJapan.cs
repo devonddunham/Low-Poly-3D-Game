@@ -11,6 +11,7 @@ public class PlayerJapan : MonoBehaviour
     public GameObject CrossHair;
     public float windWaitTime;
     Projectile projectileScript;
+    ShootingTarget shootingScript;
     public GameObject freezePanel;
 
     public GameObject gameOverPanel;
@@ -26,6 +27,7 @@ public class PlayerJapan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        shootingScript = FindObjectOfType<ShootingTarget>();
         fpsController = FindObjectOfType<FPSController>();
         projectileScript = FindObjectOfType<Projectile>();
         windRush.SetActive(false);
@@ -89,6 +91,7 @@ public class PlayerJapan : MonoBehaviour
 
     public void GameOver()
     {
+        shootingScript.canShoot = false;
         ScoreManager();
         fpsController.canMove = false;
         scoreText.transform.parent.gameObject.SetActive(false);
