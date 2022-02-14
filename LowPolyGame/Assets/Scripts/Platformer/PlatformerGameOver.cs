@@ -57,7 +57,7 @@ public class PlatformerGameOver : MonoBehaviour
 
     public void CheckScore()
     {
-        // buggy
+
         if (player.lives <= 0)
         {
             scoreTxt.text = "Score: " + distance.timer.ToString("f2");

@@ -43,7 +43,7 @@ public class RaceCarMovement : MonoBehaviour
     {
         score = 0;
         misText.transform.parent.gameObject.SetActive(false);
-        highscore = PlayerPrefs.GetInt("highscore", highscore);
+        highscore = PlayerPrefs.GetInt("race_highscore", highscore);
         healthText.text = "Lives: " + health;
         gameOverPanel.SetActive(false);
     }
@@ -196,7 +196,7 @@ public class RaceCarMovement : MonoBehaviour
         gameOverScore.text = "Score: " + score;
         gameOverHighScore.text = "High Score: " + highscore;
 
-        PlayerPrefs.SetInt("highscore", highscore);
+        PlayerPrefs.SetInt("race_highscore", highscore);
     }
 
     public void Shooting()

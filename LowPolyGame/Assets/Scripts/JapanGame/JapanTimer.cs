@@ -7,7 +7,7 @@ public class JapanTimer : MonoBehaviour
 
     public GameObject timePanel;
     public GameObject scorePanel;
-    public float timerNum = 5;
+    public float timerNum;
     public Text timeText;
     PlayerJapan player;
 

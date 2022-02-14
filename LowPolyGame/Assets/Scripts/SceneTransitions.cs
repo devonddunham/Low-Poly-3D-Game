@@ -35,6 +35,12 @@ public class SceneTransitions : MonoBehaviour
             }
         });
     }
+
+    public void HubTransition()
+    {
+        SceneManager.LoadScene("Hub");
+    }
+
     public IEnumerator FadeInCo()
     {
         yield return new WaitForSeconds(0.05f);

@@ -74,7 +74,7 @@ public class FPSController : MonoBehaviour
 
     public void UnLock()
     {
-        Debug.Log("G");
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

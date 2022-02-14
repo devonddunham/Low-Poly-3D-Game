@@ -11,6 +11,7 @@ public class PlayerJapan : MonoBehaviour
     public GameObject CrossHair;
     public float windWaitTime;
     Projectile projectileScript;
+    public GameObject freezePanel;
 
     public GameObject gameOverPanel;
     FPSController fpsController;
@@ -28,6 +29,7 @@ public class PlayerJapan : MonoBehaviour
         fpsController = FindObjectOfType<FPSController>();
         projectileScript = FindObjectOfType<Projectile>();
         windRush.SetActive(false);
+        PlayerPrefs.SetInt("japan_highscore", highscore);
     }
 
     // Update is called once per frame
@@ -77,8 +79,10 @@ public class PlayerJapan : MonoBehaviour
     {
         projectileScript.canThrow = false;
         fpsController.canMove = false;
-        yield return new WaitForSeconds(1f);
+        freezePanel.SetActive(true);
+        yield return new WaitForSeconds(3f);
         freeze = false;
+        freezePanel.SetActive(false);
         fpsController.canMove = true;
         projectileScript.canThrow = true;
     }
@@ -102,6 +106,7 @@ public class PlayerJapan : MonoBehaviour
         gameOverScore.text = "Score: " + score;
         gameOverHighScore.text = "High Score: " + highscore;
 
-        PlayerPrefs.SetInt("highscore", highscore);
+        PlayerPrefs.SetInt("japan_highscore", highscore);
+
     }
 }
