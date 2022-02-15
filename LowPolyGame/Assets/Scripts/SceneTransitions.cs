@@ -22,7 +22,16 @@ public class SceneTransitions : MonoBehaviour
 
     public void OpenScene(string sceneToLoad)
     {
-        HubPanel.instance.entryPanel.SetActive(false);
+        Time.timeScale = 1;
+
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        // only set the gameObject false only if there is a panel active in the game
+        if (currentScene == "Hub")
+        {
+            HubPanel.instance.entryPanel.SetActive(false);
+        }
+
         fader.gameObject.SetActive(true);
         LeanTween.scale(fader, Vector3.zero, 0f);
         LeanTween.scale(fader, new Vector3(1, 1, 1), 0.5f).setOnComplete(() =>
@@ -33,15 +42,9 @@ public class SceneTransitions : MonoBehaviour
             }
             else
             {
-                Debug.Log("Scene to load is empty on");
-                return;
+                Debug.Log("There is no sceneToLoad on this panel");
             }
         });
-    }
-
-    public void HubTransition()
-    {
-        SceneManager.LoadScene("Hub");
     }
 
     public IEnumerator FadeInCo()

@@ -24,11 +24,11 @@ public class HubAnimationController : MonoBehaviour
 
     void Update()
     {
-        if (this.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
-        {
-            playerCam.SetActive(true);
-            menuAnim.SetActive(false);
-            isPlaying = false;
-        }
+        // if (this.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        // {
+        //     playerCam.SetActive(true);
+        //     menuAnim.SetActive(false);
+        //     isPlaying = false;
+        // }
     }
 }

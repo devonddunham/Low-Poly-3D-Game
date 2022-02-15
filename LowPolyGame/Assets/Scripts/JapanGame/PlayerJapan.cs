@@ -11,8 +11,9 @@ public class PlayerJapan : MonoBehaviour
     public GameObject CrossHair;
     public float windWaitTime;
     Projectile projectileScript;
-    ShootingTarget shootingScript;
+    public ShootingTarget shootingScript;
     public GameObject freezePanel;
+    public GameObject timerText;
 
     public GameObject gameOverPanel;
     FPSController fpsController;
@@ -91,7 +92,7 @@ public class PlayerJapan : MonoBehaviour
 
     public void GameOver()
     {
-        shootingScript.canShoot = false;
+        timerText.SetActive(false);
         ScoreManager();
         fpsController.canMove = false;
         scoreText.transform.parent.gameObject.SetActive(false);
@@ -99,6 +100,7 @@ public class PlayerJapan : MonoBehaviour
         CrossHair.SetActive(false);
         projectileScript.canThrow = false;
         gameOverPanel.SetActive(true);
+        shootingScript.canShoot = false;
     }
 
     public void ScoreManager()

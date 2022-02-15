@@ -3504,7 +3504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timePanel: {fileID: 1712576506}
   scorePanel: {fileID: 135831159}
-  timerNum: 60
+  timerNum: 5
   timeText: {fileID: 1171300829}
 --- !u!4 &466162750
 Transform:
@@ -4590,7 +4590,9 @@ MonoBehaviour:
   handShuriken: {fileID: 4229509683359330001}
   CrossHair: {fileID: 219952756}
   windWaitTime: 0.5
+  shootingScript: {fileID: 0}
   freezePanel: {fileID: 1079022462}
+  timerText: {fileID: 1712576506}
   gameOverPanel: {fileID: 1077915880}
   score: 0
   scoreText: {fileID: 333645691}
@@ -7318,7 +7320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 87ff71ffc286b91449d2296928632aed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
