@@ -9,6 +9,7 @@ public class SceneTransitions : MonoBehaviour
 
     void Start()
     {
+
         if (!fader)
             return;
 

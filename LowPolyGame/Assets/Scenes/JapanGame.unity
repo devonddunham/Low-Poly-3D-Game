@@ -3504,7 +3504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timePanel: {fileID: 1712576506}
   scorePanel: {fileID: 135831159}
-  timerNum: 5
+  timerNum: 60
   timeText: {fileID: 1171300829}
 --- !u!4 &466162750
 Transform:
@@ -7828,14 +7828,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 522164794}
         m_TargetAssemblyTypeName: SceneTransitions, Assembly-CSharp
-        m_MethodName: HubTransition
-        m_Mode: 1
+        m_MethodName: OpenScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Hub
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &984849854

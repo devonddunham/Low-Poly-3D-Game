@@ -33,6 +33,7 @@ public class PlayerJapan : MonoBehaviour
         projectileScript = FindObjectOfType<Projectile>();
         windRush.SetActive(false);
         PlayerPrefs.SetInt("japan_highscore", highscore);
+
     }
 
     // Update is called once per frame
@@ -92,15 +93,17 @@ public class PlayerJapan : MonoBehaviour
 
     public void GameOver()
     {
-        timerText.SetActive(false);
         ScoreManager();
+
+        timerText.SetActive(false);
         fpsController.canMove = false;
         scoreText.transform.parent.gameObject.SetActive(false);
         fpsController.UnLock();
         CrossHair.SetActive(false);
         projectileScript.canThrow = false;
         gameOverPanel.SetActive(true);
-        shootingScript.canShoot = false;
+
+
     }
 
     public void ScoreManager()
