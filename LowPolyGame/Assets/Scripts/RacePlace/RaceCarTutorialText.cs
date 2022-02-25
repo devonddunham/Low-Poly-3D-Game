@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class RaceCarTutorialText : MonoBehaviour
 {
+    private RaceCarMovement raceCar;
     private GameObject tutorialText;
+    private GameObject stats;
     Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        tutorialText = GameObject.Find("Tutorial Text Slideshow");
+        raceCar = FindObjectOfType<RaceCarMovement>();
         anim = GetComponent<Animator>();
-        RaceCarMovement.instance.canMove = false;
+        tutorialText = GameObject.Find("Tutorial Text Slideshow");
+        stats = GameObject.Find("Stats");
+
+        stats.SetActive(false);
+        raceCar.canMove = false;
     }
 
     // Update is called once per frame
@@ -40,12 +46,15 @@ public class RaceCarTutorialText : MonoBehaviour
         if (this.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
             RaceCarMovement.instance.canMove = true;
+            tutorialText.SetActive(false);
+            stats.SetActive(true);
         }
     }
 
     public void SkipTutorialText()
     {
         tutorialText.SetActive(false);
+        stats.SetActive(true);
         RaceCarMovement.instance.canMove = true;
     }
 }
