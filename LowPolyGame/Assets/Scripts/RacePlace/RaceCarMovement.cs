@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class RaceCarMovement : MonoBehaviour
 {
-
+    public static RaceCarMovement instance;
     public static int highscore;
 
 
@@ -30,7 +30,7 @@ public class RaceCarMovement : MonoBehaviour
     public Text gameOverScore;
     public Text gameOverHighScore;
 
-    public bool canMove = true;
+    public bool canMove;
     public bool canShoot = false;
 
     public GameObject missile;
@@ -41,6 +41,7 @@ public class RaceCarMovement : MonoBehaviour
 
     public void Start()
     {
+        instance = this;
         score = 0;
         misText.transform.parent.gameObject.SetActive(false);
         highscore = PlayerPrefs.GetInt("race_highscore", highscore);
@@ -119,9 +120,6 @@ public class RaceCarMovement : MonoBehaviour
             car.transform.position = Vector3.MoveTowards(car.transform.position, pos1.transform.position, turnSpeed * Time.deltaTime);
             if (car.transform.position == pos1.transform.position)
             {
-
-
-
                 animController.SetBool("canTurnLeft", false);
             }
 
