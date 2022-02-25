@@ -10,16 +10,18 @@ public class Projectile : MonoBehaviour
     public Transform firePoint;
     public bool canThrow = true;
     PlayerJapan playerScript;
+    FPSController fps;
 
 
     public void Start()
     {
         playerScript = FindObjectOfType<PlayerJapan>();
+        fps = FindObjectOfType<FPSController>();
     }
 
     void Update()
     {
-        if (canThrow)
+        if (canThrow && fps.canMove)
         {
             if (Input.GetButtonDown("Fire1"))
             {

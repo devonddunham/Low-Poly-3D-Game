@@ -12,11 +12,14 @@ public class ShootingTarget : MonoBehaviour
 
     public float launchSpeed = 300f;
     public float heightSpeed = 50f;
+    private FPSController fps;
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ShootBullet());
         player = GameObject.Find("Player");
+        fps = FindObjectOfType<FPSController>();
     }
 
     // Update is called once per frame
@@ -37,10 +40,8 @@ public class ShootingTarget : MonoBehaviour
     public IEnumerator ShootBullet()
     {
         yield return new WaitForSeconds(5f);
-        if (canShoot)
+        if (canShoot && fps.canMove)
         {
-
-
             GameObject targetBullet = Instantiate(bullet, firePoint.transform.position, rotation: transform.rotation);
             targetBullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, heightSpeed, launchSpeed));
 
@@ -55,6 +56,5 @@ public class ShootingTarget : MonoBehaviour
         {
             canShoot = false;
         }
-
     }
 }

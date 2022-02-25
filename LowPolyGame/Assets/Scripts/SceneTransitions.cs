@@ -48,6 +48,11 @@ public class SceneTransitions : MonoBehaviour
         });
     }
 
+    public void OpenWebsite(string url)
+    {
+        Application.OpenURL(url);
+    }
+
     public IEnumerator FadeInCo()
     {
         yield return new WaitForSeconds(0.05f);

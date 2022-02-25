@@ -43,7 +43,6 @@ public class TargetJapan : MonoBehaviour
 
         if (other.gameObject.tag == "Shuriken")
         {
-
             if (canPoint)
             {
                 playerScript.ScoreUp();
@@ -62,9 +61,6 @@ public class TargetJapan : MonoBehaviour
 
 
         }
-
-
-
     }
 
     public IEnumerator MoveToPos()
@@ -72,9 +68,4 @@ public class TargetJapan : MonoBehaviour
         yield return new WaitForSeconds(3f);
         transform.position = destroyPos.transform.position;
     }
-
-
-
-
-
 }

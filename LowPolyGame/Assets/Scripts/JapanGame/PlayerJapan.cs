@@ -32,8 +32,7 @@ public class PlayerJapan : MonoBehaviour
         fpsController = FindObjectOfType<FPSController>();
         projectileScript = FindObjectOfType<Projectile>();
         windRush.SetActive(false);
-        PlayerPrefs.SetInt("japan_highscore", highscore);
-
+        gameOverHighScore.text = "High Score: " + PlayerPrefs.GetFloat("japan_highscore", 0).ToString();
     }
 
     // Update is called once per frame
@@ -108,13 +107,12 @@ public class PlayerJapan : MonoBehaviour
 
     public void ScoreManager()
     {
-        if (score > highscore)
-            highscore = score;
-
         gameOverScore.text = "Score: " + score;
-        gameOverHighScore.text = "High Score: " + highscore;
-
-        PlayerPrefs.SetInt("japan_highscore", highscore);
-
+        if (score > PlayerPrefs.GetFloat("japan_highscore", 0))
+        {
+            highscore = score;
+            gameOverHighScore.text = "High Score: " + highscore.ToString();
+            PlayerPrefs.SetFloat("japan_highscore", highscore);
+        }
     }
 }
