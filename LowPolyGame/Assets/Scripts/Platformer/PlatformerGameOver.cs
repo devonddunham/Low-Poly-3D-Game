@@ -42,11 +42,11 @@ public class PlatformerGameOver : MonoBehaviour
             gameOverScreen.SetActive(true);
             player.canMove = false;
 
-            bool isRPressed = Input.GetKeyDown(KeyCode.R);
-            if (isRPressed)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
+            // bool isRPressed = Input.GetKeyDown(KeyCode.R);
+            // if (isRPressed)
+            // {
+            //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            // }
         }
         else
         {
